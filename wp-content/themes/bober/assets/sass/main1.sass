@@ -1,0 +1,175 @@
+/***********************************************************************************
+ *	+ [Master Stylesheet]
+
+ *	+ Project: BOBER - Creative Responsive Minimalistic WordPress Theme
+ 	To use this template you must have a license purchased at Themeforest (themeforest.com)
+ *	+ Autor: Alian4x
+ *	+ Version: 1.0
+ *	+  Copyright 1995-2017 https://themeforest.net/user/alian4x
+ ***********************************************************************************/
+
+/***********************************************************************************
+/* Header
+/** Navigation
+/* Slider
+/* Buttonts
+/* Forms
+/* Contol slider
+/** Control carousel
+/* Into slider
+/* Services
+/** Tabs
+/* How we work
+/** Item
+/* Work progress
+/* Our some work
+/* Portfolio
+/** Block item
+/*Content portfolio
+/**Project
+/*Control sliders
+/* Trigger
+/* We are in numbers
+/* Our skills
+/** Skill Bar
+/* Carousel trigger
+/** Slide
+/* Our team
+/** Item team
+/* Social links
+/* Testimonials
+/* Why chose us
+/* Our clients
+/* Contact with us
+/* Our location
+/* Footer
+	***********************************************************************************/
+
+
+@import "bourbon"					//Bourbon mixin library for Sass
+@import "components/_vars.sass"		//Variables
+@import "components/_mixins.sass"	//Some mixins
+
+body
+	font-size: 16px
+	min-width: 320px
+	font-weight: 300
+	line-height: 1.6
+	font-family: $accent-font
+	overflow-x: hidden
+	-webkit-font-smoothing: antialiased
+	text-rendering: optimizeLegibility
+	@include scrollbar()
+
+a
+	outline: none!important
+h1
+	font-size: 47px
+h2
+	font-size: 41px
+h3
+	font-size: 35px
+h4
+	font-size: 27px
+h5
+	font-size: 20px
+h6
+	font-size: 17px
+
+.mfp-wrap
+	@include scrollbar()
+html
+	font-size: inherit
+	//margin-right: 0!important
+	
+iframe
+	border: none
+	display: block
+/*Page loader*/
+
+.pace
+	pointer-events: none
+	user-select: none
+.pace-inactive
+	display: none
+.pace
+	.pace-progress
+		background: $accent-color
+		position: fixed
+		z-index: 2000
+		top: 0
+		right: 100%
+		width: 100%
+		height: 2px
+	.pace-progress-inner
+		display: block
+		position: absolute
+		right: 0px
+		width: 100px
+		height: 100%
+		box-shadow: 0 0 10px $accent-color, 0 0 5px $accent-color
+		opacity: 1.0
+		transform: rotate(3deg) translate(0px, -4px)
+	.pace-activity
+		display: block
+		position: fixed
+		z-index: 2000
+		top: 15px
+		right: 15px
+		width: 14px
+		height: 14px
+		border: solid 2px transparent
+		border-top-color: $accent-color
+		border-left-color: $accent-color
+		border-radius: 10px
+		animation: pace-spinner 400ms linear infinite
+@keyframes pace-spinner
+	0%
+		transform: rotate(0deg)
+		transform: rotate(0deg)
+	100%
+		transform: rotate(360deg)
+		transform: rotate(360deg)
+
+.hidden
+	display: none
+i
+	line-height: inherit!important
+p
+	margin-top: 20px
+	margin-bottom: 0
+	letter-spacing: 0.1px
+	line-height: 30px
+
+@import "components/_loader.sass"
+// Components
+@import "components/_components.sass"		// Compononets
+@import "_ultimate.sass"					// Ultimate VC
+
+@import "pages/_pages.sass"					// Pages
+@import "components/blog/_blog.sass"		// Blog
+@import "components/blog/_media.sass"		// Blog Media
+@import "components/head/_header.sass"		// Header
+@import "components/head/_sliders.sass"		// Sliders
+@import "_sections.sass"					// Sections
+@import "components/_animation.sass"		// Animation
+@import "woocommerce/_woocommerce.sass" //Woocommerce
+@import "_wp_main_components.sass" //Wp main components
+@import "_wordpress.sass" //Wp main components
+
+
+//Admin bar fix menu
+.logged-in.admin-bar
+	header.is-sticky.fixed-tp-menu:not(.header-type-1)
+		top: 32px!important
+.logged-in.admin-bar.active-fullscreen-topnav
+	.fullscreen-topnav
+		top: 95px!important
+	.content-wrap-lfm
+		.fullscreen-topnav
+			top: 0px!important
+	header:not(.header-type-1)
+		top: 32px!important
+
+//Media
+@import "components/_media.sass"			// Media

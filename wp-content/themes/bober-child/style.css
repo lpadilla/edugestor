@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Bober Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Bober Child Theme
+ Author:       Domsday
+ Author URI:   https://themeforest.net/user/domsday
+ Template:     bober
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  bober-child
+*/
+.display-page,.al-display-page{
+	display: none;
+}
+
+.wpb_headin,.wpb_revslider_heading{
+	display: none;
+}
+section, .section{
+	padding: 0 !important;
+}
+.wpb_revslider_element.wpb_content_element {
+  margin: 0;
+}
+header{
+	background-color: rgb(102, 165, 84) !important;
+}
+
+footer, footer .down-footer{
+	background: rgb(102, 165, 84) !important;
+}
+footer ul.social-links li a{
+	background-color: #6AA77D !important; 
+}
+footer ul.social-links li a:hover{
+	background-color: rgba(106,167,125,0.4) !important;
+}
+
+body:not(.al-sidenav) .al-relative-header .sf-menu > li > {
+	color: #fff;
+}

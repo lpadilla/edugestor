@@ -1,0 +1,637 @@
+{
+    "key": "group_5ab66e755de80",
+    "title": "Portfolio default",
+    "fields": [
+        {
+            "key": "field_5ad2667c3815f",
+            "label": "Max width pop-up window",
+            "name": "portfolio_max_width_popup",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 620,
+            "min": 300,
+            "max": 1200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ad264b958504",
+            "label": "Show the title the project ?",
+            "name": "display_name_project",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ab6703ee6ab6",
+            "label": "Hover description",
+            "name": "portfolio_hover_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Hello there!",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ad2530192aae",
+            "label": "Pop-up description project",
+            "name": "portfolio_description_project",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5ad25eb37bf0a",
+            "label": "Display the \"Details\"  ?",
+            "name": "portfolio_display_details",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ad255af64c9a",
+            "label": "Details",
+            "name": "portfolio_details",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ad25eb37bf0a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ad255db64c9b",
+                    "label": "Client",
+                    "name": "portfolio_details_client",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5ad25a2cf21b9",
+                    "label": "Date of release",
+                    "name": "portfolio_details_date_of_release",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "F j, Y",
+                    "return_format": "F j, Y",
+                    "first_day": 1
+                },
+                {
+                    "key": "field_5ad25a8f14ec5",
+                    "label": "Link preview",
+                    "name": "portfolio_details_link_preview",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ad2625d11958",
+            "label": "Display button \"See project\" ?",
+            "name": "portfolio_display_button_see",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ad262cd19f7e",
+            "label": "See project label",
+            "name": "portfolio_see_project_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ad2625d11958",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "See project",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab66e9da3a7b",
+            "label": "Portfolio type",
+            "name": "portfolio_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Default",
+                "video": "Video",
+                "audio": "Audio",
+                "video_gallery": "Video gallery",
+                "photo_gallery": "Photo gallery",
+                "audio_gallery": "Audio gallery"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "default",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5acf2b7fb85cb",
+            "label": "Gallery images",
+            "name": "portfolio_gallery_images",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "photo_gallery"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "insert": "append",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ad23bf73ceb3",
+            "label": "Audio type",
+            "name": "portfolio_audio_type",
+            "type": "radio",
+            "instructions": "Select the audio type",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "audio"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "link": "Media",
+                "iframe": "Iframe",
+                "iframe_url": "Url"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "link",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ad24b29f149c",
+            "label": "Audio gallery",
+            "name": "portfolio_audio_gallery",
+            "type": "repeater",
+            "instructions": "Upload the audio",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "audio_gallery"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5ad24b46f149d",
+                    "label": "Audio url",
+                    "name": "portfolio_audio_gallery_repeat",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ad244c578856",
+            "label": "Audio url",
+            "name": "portfolio_audio_url",
+            "type": "text",
+            "instructions": "Enter here the url to audio: example - https:\/\/soundcloud.com\/famous_dex1\/japan",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "audio"
+                    },
+                    {
+                        "field": "field_5ad23bf73ceb3",
+                        "operator": "==",
+                        "value": "iframe_url"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/soundcloud.com\/famous_dex1\/japan",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ad23bba86bfc",
+            "label": "Audio link",
+            "name": "portfolio_audio_link",
+            "type": "file",
+            "instructions": "Upload the audio",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "audio"
+                    },
+                    {
+                        "field": "field_5ad23bf73ceb3",
+                        "operator": "==",
+                        "value": "link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ad23dfc00617",
+            "label": "Audio iframe",
+            "name": "portfolio_audio_iframe",
+            "type": "textarea",
+            "instructions": "Enter here the Iframe code",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ad23bf73ceb3",
+                        "operator": "==",
+                        "value": "iframe"
+                    },
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "audio"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ad233552c6c6",
+            "label": "Video gallery",
+            "name": "p_video_gallery",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "video_gallery"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5ad2336b2c6c7",
+                    "label": "Video gallery",
+                    "name": "portfolio_video_gallery",
+                    "type": "text",
+                    "instructions": "insert here your video url",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ad226f2451a7",
+            "label": "Video",
+            "name": "portfolio_video_iframe",
+            "type": "text",
+            "instructions": "insert here your video url",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "example: https:\/\/www.youtube.com\/watch?v=K8DUjObr_tU",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ad315a5f2250",
+            "label": "Iframe height",
+            "name": "portfolio_iframe_height",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "video_gallery"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "audio"
+                    },
+                    {
+                        "field": "field_5ad23bf73ceb3",
+                        "operator": "==",
+                        "value": "iframe"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ab66e9da3a7b",
+                        "operator": "==",
+                        "value": "audio"
+                    },
+                    {
+                        "field": "field_5ad23bf73ceb3",
+                        "operator": "==",
+                        "value": "iframe_url"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 450,
+            "min": 10,
+            "max": 1200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ab673956de19",
+            "label": "Custom icon",
+            "name": "portfolio_custom_icon",
+            "type": "text",
+            "instructions": "Example: fa fa-picture-o",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "folio"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1525190653
+}

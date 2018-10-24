@@ -1,0 +1,93 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/*END Left menu style normal*/
+@media only screen and (max-width : 1200px)
+  .avatar-80
+    width: 50px
+    height: 50px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  /**/
+  .blog-classic
+    .post-content-classic
+      margin-top: 20px
+    .post.sticky
+      &:after
+        right: 15px
+      &:before
+        right: 8px
+        margin-right: 15px
+  /*Blog*/
+  .comment-list
+    .children
+      .children
+        li
+          padding-left: 50px
+  #sidebar
+    &:before
+      display: none
+
+  /* Blog Masonry */
+  .al-masonry-posts[data-size="3"] article
+    width: 48.5%
+  .al-masonry-posts[data-size="4"] article
+    width: 48.5%
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  /**/
+  #sidebar
+    padding-bottom: 30px
+  /* Blog Masonry */
+  .al-masonry-posts[data-size="3"] .post, .al-masonry-posts[data-size="2"] article, .al-masonry-posts[data-size="4"] article
+    width: 100%
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  /**/
+  .post
+    .post-data
+      p
+        font-size: 13px
+    .content
+      h3
+        font-size: 18px
+  .al-masonry-posts[data-size="3"] article, .al-masonry-posts[data-size="4"] article, .al-masonry-posts[data-size="2"] article
+    width: 100%
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  /**/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+  /**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+  /**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+  /**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+  /**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+  /**/
+
+

@@ -1,0 +1,1135 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bober\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-25 04:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: comments.php:14
+msgid "% Comments"
+msgstr ""
+
+#. 1: plugin name.
+#: framework/includes/helper/class-tgm-plugin-activation.php:3594
+#: framework/includes/helper/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s done."
+msgstr ""
+
+#: framework/customizer/section-footer.php:21
+msgid ""
+"2018 All Rights Reserved.  -   Created by <a href=\"https://themeforest."
+"net/user/alian4x\" target=\"_blank\">Alian4x</a>"
+msgstr ""
+
+#: framework/customizer/section-404.php:12
+msgid "404 settings"
+msgstr ""
+
+#: framework/includes/helper-function.php:264
+msgid "[...]"
+msgstr ""
+
+#: framework/customizer/section-general.php:70
+msgid "Absolute"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: framework/includes/helper/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: framework/includes/woocommerce-config.php:15
+#: framework/includes/helper-function.php:14
+#: framework/includes/helper-function.php:23
+msgid "Add widgets here."
+msgstr ""
+
+#. Author of the theme
+msgid "Alian4x"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. 1: dashboard link.
+#: framework/includes/helper/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. 1: plugin name, 2: error message.
+#: framework/includes/helper/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/includes/helper-function.php:600
+msgid "at"
+msgstr ""
+
+#: woocommerce/cart/cart.php:91
+msgid "Available on backorder"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: framework/customizer/section-general.php:273
+msgid "Back to top"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:20
+msgid "Background"
+msgstr ""
+
+#: framework/customizer/section-blog.php:34
+#: framework/customizer/section-404.php:49
+#: framework/customizer/section-page.php:20
+msgid "Background image"
+msgstr ""
+
+#: framework/customizer/section-blog.php:41
+msgid "Background image: Archive page"
+msgstr ""
+
+#: framework/customizer/section-blog.php:48
+msgid "Background image: Search page"
+msgstr ""
+
+#: framework/customizer/section-woocommerce.php:19
+msgid "Background page image"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+msgid "Billing address"
+msgstr ""
+
+#: framework/customizer/section-social.php:116
+msgid "Bitbucket"
+msgstr ""
+
+#: framework/customizer/section-blog.php:12
+msgid "Blog settings"
+msgstr ""
+
+#: framework/includes/helper-function.php:12
+msgid "Blog Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Template"
+msgstr ""
+
+#. Name of the theme
+msgid "Bober"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Bober is a modern one / multi page, minimalistic, easy to use, lightweight "
+"and fast loading, WordPress Rheme for building simple and beautiful business "
+"or personal website."
+msgstr ""
+
+#: framework/customizer/section-404.php:40
+msgid "Button label"
+msgstr ""
+
+#: templates/content/content-post-meta.php:4
+msgid "By "
+msgstr ""
+
+#: comments.php:92
+msgid "Cancel reply"
+msgstr ""
+
+#: framework/includes/helper-function.php:380
+msgid "Category:"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:91
+#: framework/customizer/section-full-screen-nav.php:155
+msgid "Choose page:"
+msgstr ""
+
+#: framework/customizer/section-footer.php:46
+msgid "Choose the type of footer"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr ""
+
+#: templates/portfolio/content-portfolio-item.php:117
+msgid "Client:"
+msgstr ""
+
+#: templates/portfolio/content-portfolio-item.php:133
+msgid "Close (Esc)"
+msgstr ""
+
+#: comments.php:44
+msgid "Comments are closed"
+msgstr ""
+
+#: framework/customizer/section-footer.php:22
+msgid "Copyright"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:39 woocommerce/cart/cart.php:138
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon:"
+msgstr ""
+
+#: framework/customizer/section-general.php:183
+msgid "Dark logo"
+msgstr ""
+
+#: templates/portfolio/content-portfolio-item.php:120
+msgid "Date: "
+msgstr ""
+
+#: framework/customizer/section-footer.php:51
+msgid "Default"
+msgstr ""
+
+#: framework/customizer/section-blog.php:27
+#: framework/customizer/section-full-screen-nav.php:162
+#: framework/customizer/section-footer.php:30
+#: framework/customizer/section-woocommerce.php:34
+#: framework/customizer/section-woocommerce.php:36
+#: framework/customizer/section-404.php:30
+msgid "Description"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:49
+#: framework/customizer/section-full-screen-nav.php:113
+#: framework/customizer/section-full-screen-nav.php:177
+#: framework/customizer/section-full-screen-nav.php:199
+msgid "Description:"
+msgstr ""
+
+#: templates/portfolio/content-portfolio-item.php:113
+msgid "Detalis"
+msgstr ""
+
+#: framework/customizer/section-woocommerce.php:49
+msgid "Disable"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/customizer/section-social.php:76
+msgid "Dribbble"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:53
+#: framework/includes/helper-function.php:613
+msgid "Edit"
+msgstr ""
+
+#: comments.php:65
+msgid "Email *"
+msgstr ""
+
+#: framework/customizer/section-woocommerce.php:48
+msgid "Enable"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/customizer/section-social.php:24
+msgid "Facebook"
+msgstr ""
+
+#: functions.php:21
+msgid "Footer Navigation"
+msgstr ""
+
+#: framework/customizer/section-footer.php:12
+msgid "Footer settings"
+msgstr ""
+
+#: framework/includes/helper-function.php:21
+msgid "Footer Sidebar"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:12
+msgid "Full Screen Settings"
+msgstr ""
+
+#: framework/customizer/section-general.php:20
+msgid "Full screen top menu"
+msgstr ""
+
+#: framework/customizer/section-general.php:12
+msgid "General settings"
+msgstr ""
+
+#: framework/customizer/section-social.php:124
+msgid "Github"
+msgstr ""
+
+#: framework/customizer/section-404.php:42
+msgid "Go to back"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:26
+msgid "Go to shop"
+msgstr ""
+
+#: framework/includes/action-config.php:22
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/customizer/section-social.php:60
+msgid "Google Plus"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr ""
+
+#: framework/customizer/section-blog.php:20
+#: framework/customizer/section-woocommerce.php:26
+#: framework/customizer/section-404.php:20
+msgid "Heading title"
+msgstr ""
+
+#: framework/customizer/section-footer.php:53
+msgid "Hide"
+msgstr ""
+
+#: framework/customizer/section-general.php:99
+msgid "Hide menu on scroll ?"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://alian4x.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themeforest.net/user/alian4x/portfolio"
+msgstr ""
+
+#: framework/customizer/section-general.php:162
+msgid "Image"
+msgstr ""
+
+#: templates/content/content-post-meta.php:11
+msgid "in "
+msgstr ""
+
+#: framework/customizer/section-footer.php:23
+msgid "Insert your copyright here"
+msgstr ""
+
+#: framework/customizer/section-footer.php:31
+msgid "Insert your description here"
+msgstr ""
+
+#: framework/customizer/section-social.php:25
+#: framework/customizer/section-social.php:34
+#: framework/customizer/section-social.php:43
+#: framework/customizer/section-social.php:52
+#: framework/customizer/section-social.php:61
+#: framework/customizer/section-social.php:77
+#: framework/customizer/section-social.php:85
+#: framework/customizer/section-social.php:93
+#: framework/customizer/section-social.php:101
+#: framework/customizer/section-social.php:109
+#: framework/customizer/section-social.php:117
+#: framework/customizer/section-social.php:125
+msgid "Insert your link here"
+msgstr ""
+
+#: framework/customizer/section-general.php:197
+msgid "Insert your logo"
+msgstr ""
+
+#: framework/customizer/section-social.php:69
+msgid "Insert your profile nick"
+msgstr ""
+
+#: framework/customizer/section-social.php:51
+msgid "Instagram"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: framework/includes/helper/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#. 1: install status, 2: update status
+#: framework/includes/helper/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: framework/includes/helper/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: framework/includes/helper/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: framework/includes/helper/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: templates/content/content-none.php:15
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: comments.php:86
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:87
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: framework/customizer/section-general.php:41
+msgid "Left"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:74
+#: framework/customizer/section-full-screen-nav.php:138
+msgid "Link"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:34
+msgid "Link 1"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:98
+msgid "Link 2"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:84
+#: framework/customizer/section-full-screen-nav.php:148
+#: framework/customizer/section-full-screen-nav.php:193
+msgid "Link:"
+msgstr ""
+
+#: framework/customizer/section-social.php:42
+msgid "Linkedin"
+msgstr ""
+
+#: templates/portfolio/content-portfolio-item.php:123
+msgid "Live:"
+msgstr ""
+
+#: loop/loop-service-items.php:45 loop/loop-post-acf.php:91
+msgid "Load More"
+msgstr ""
+
+#: framework/customizer/section-general.php:213
+msgid "Logo Height"
+msgstr ""
+
+#: framework/customizer/section-general.php:111
+msgid "Main color"
+msgstr ""
+
+#: functions.php:19
+msgid "Main Navigation"
+msgstr ""
+
+#: framework/customizer/section-general.php:85
+msgid "Menu background"
+msgstr ""
+
+#: framework/customizer/section-general.php:36
+msgid "Menu position"
+msgstr ""
+
+#: framework/customizer/section-general.php:66
+msgid "Menu style"
+msgstr ""
+
+#: framework/customizer/section-footer.php:52
+msgid "Minimal"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: functions.php:20
+msgid "Mobile Navigation"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:62
+#: framework/customizer/section-full-screen-nav.php:126
+#: framework/customizer/section-social.php:17
+msgid "New page"
+msgstr ""
+
+#: comments.php:23
+msgid "Newer Comments"
+msgstr ""
+
+#: framework/includes/helper-function.php:239
+msgid "Next"
+msgstr ""
+
+#: framework/includes/helper-function.php:829
+msgid "Next Post"
+msgstr ""
+
+#: framework/customizer/section-general.php:53
+msgid "No"
+msgstr ""
+
+#. 1: plugin name.
+#: framework/includes/helper/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: comments.php:14
+msgid "No Comments"
+msgstr ""
+
+#: header.php:73 templates/footer/footer-default.php:29
+#: templates/header/header-mobile-nav.php:18
+msgid "No Menu"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: framework/customizer/section-general.php:25
+#: framework/customizer/section-general.php:104
+#: framework/customizer/section-general.php:266
+#: framework/customizer/section-general.php:279
+#: framework/customizer/section-blog.php:61
+msgid "Off"
+msgstr ""
+
+#: comments.php:22
+msgid "Older Comments"
+msgstr ""
+
+#: framework/customizer/section-general.php:26
+#: framework/customizer/section-general.php:103
+#: framework/customizer/section-general.php:265
+#: framework/customizer/section-general.php:278
+#: framework/customizer/section-blog.php:60
+msgid "On"
+msgstr ""
+
+#: comments.php:14
+msgid "One Comment"
+msgstr ""
+
+#: framework/customizer/section-404.php:33
+msgid "Oops, Page Not Found"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:75
+#: framework/customizer/section-full-screen-nav.php:139
+msgid "Page"
+msgstr ""
+
+#: framework/customizer/section-404.php:23
+msgid "Page 404"
+msgstr ""
+
+#: framework/customizer/section-page.php:12
+msgid "Page settings"
+msgstr ""
+
+#: page.php:27 templates/content/content-post-single.php:12
+msgid "Pages:"
+msgstr ""
+
+#: framework/customizer/section-social.php:84
+msgid "Pinterest"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:1019
+#: framework/includes/helper/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:1206
+#: framework/includes/helper/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:394
+#: framework/includes/helper/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. 1: plugin name.
+#: framework/includes/helper/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. 1: number of plugins.
+#: framework/includes/helper/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/customizer/section-general.php:260
+msgid "Preloader"
+msgstr ""
+
+#: framework/includes/helper-function.php:238
+msgid "Prev"
+msgstr ""
+
+#: framework/includes/helper-function.php:821
+msgid "Previous Post"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:96
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:78
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:102
+msgid "Quantity"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:69
+#: framework/customizer/section-full-screen-nav.php:133
+msgid "Radio-Buttonset Control"
+msgstr ""
+
+#: framework/includes/helper-function.php:84
+msgid "Read more"
+msgstr ""
+
+#: templates/content/content-none.php:5
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#: framework/customizer/section-general.php:71
+msgid "Relative"
+msgstr ""
+
+#: woocommerce/cart/cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: framework/includes/helper-function.php:611
+msgid "Reply"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:393
+#: framework/includes/helper/class-tgm-plugin-activation.php:912
+#: framework/includes/helper/class-tgm-plugin-activation.php:2618
+#: framework/includes/helper/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/customizer/section-social.php:92
+msgid "RSS"
+msgstr ""
+
+#: framework/includes/helper-function.php:43
+msgid "Search"
+msgstr ""
+
+#: search.php:9
+msgid "Search Results for:"
+msgstr ""
+
+#: framework/customizer/section-general.php:112
+msgid "Select the main color four your site.."
+msgstr ""
+
+#: framework/customizer/section-general.php:229
+msgid "Select the main typography options for your logo."
+msgstr ""
+
+#: framework/customizer/section-general.php:157
+msgid "Select type of logo"
+msgstr ""
+
+#. Name of the template
+msgid "Services"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:28
+msgid "Shipping address"
+msgstr ""
+
+#: framework/customizer/section-woocommerce.php:28
+msgid "Shop"
+msgstr ""
+
+#: framework/customizer/section-woocommerce.php:12
+msgid "Shop settings"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:27
+msgid "Shortcode Contact Form 7"
+msgstr ""
+
+#: framework/customizer/section-woocommerce.php:43
+msgid "Show sidebar on Arhive page ?"
+msgstr ""
+
+#: framework/customizer/section-general.php:47
+msgid "Show social networks ?"
+msgstr ""
+
+#: framework/customizer/section-blog.php:55
+msgid "Showing share buttons ?"
+msgstr ""
+
+#: framework/customizer/section-general.php:48
+msgid "Showing social networks at the bottom menu"
+msgstr ""
+
+#: framework/customizer/section-social.php:68
+msgid "Skype"
+msgstr ""
+
+#: framework/customizer/section-social.php:4
+msgid "Social settings"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: templates/content/content-none.php:9
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: framework/includes/helper-function.php:853
+msgid "Submit"
+msgstr ""
+
+#: comments.php:93
+msgid "Submit Reply"
+msgstr ""
+
+#: framework/includes/helper-function.php:463
+msgid "Tags:"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:56
+#: framework/customizer/section-full-screen-nav.php:120
+#: framework/customizer/section-social.php:11
+msgid "Target:"
+msgstr ""
+
+#: framework/customizer/section-general.php:161
+msgid "Text"
+msgstr ""
+
+#. %s: version number
+#: framework/includes/helper/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/customizer/section-general.php:113
+msgid "The color options you set here apply to all your site."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:395
+#: framework/includes/helper/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: framework/includes/helper/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/customizer/section-general.php:230
+msgid "The typography options you set here apply to your logo."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:61
+#: framework/customizer/section-full-screen-nav.php:125
+#: framework/customizer/section-social.php:16
+msgid "This site"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:43
+#: framework/customizer/section-full-screen-nav.php:107
+#: framework/customizer/section-full-screen-nav.php:171
+msgid "Title:"
+msgstr ""
+
+#. 1: number of plugins.
+#: framework/includes/helper/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: framework/includes/helper/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/helper-function.php:853
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: framework/customizer/section-general.php:40
+msgid "Top"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:119
+msgid "Total"
+msgstr ""
+
+#: framework/customizer/section-general.php:21
+#: framework/customizer/section-general.php:261
+#: framework/customizer/section-general.php:274
+#: framework/customizer/section-blog.php:56
+#: framework/customizer/section-woocommerce.php:44
+msgid "Turn On if you want display it"
+msgstr ""
+
+#: framework/customizer/section-social.php:33
+msgid "Twitter"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: framework/customizer/section-general.php:228
+msgid "Typography for logo"
+msgstr ""
+
+#: framework/includes/helper-function.php:489
+msgid "Uncategorized"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: framework/includes/helper/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. 1: number of plugins.
+#: framework/includes/helper/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/cart/cart.php:144
+msgid "Update cart"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: framework/includes/helper/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: framework/includes/helper/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/customizer/section-full-screen-nav.php:184
+msgid "Video"
+msgstr ""
+
+#: templates/portfolio/content-portfolio-item.php:123
+msgid "View project"
+msgstr ""
+
+#: framework/includes/woocommerce-config.php:50
+#: framework/includes/woocommerce-config.php:70
+msgid "View your shopping cart"
+msgstr ""
+
+#: framework/customizer/section-social.php:108
+msgid "Vimeo"
+msgstr ""
+
+#: comments.php:71
+msgid "Web site"
+msgstr ""
+
+#: framework/customizer/section-general.php:169
+msgid "White logo"
+msgstr ""
+
+#: framework/includes/woocommerce-config.php:13
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: framework/includes/helper/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: templates/content/content-post-about-author.php:9
+msgid "Written"
+msgstr ""
+
+#: framework/customizer/section-general.php:52
+msgid "Yes"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:72
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:27
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:26
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: framework/includes/helper-function.php:606
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:59
+msgid "Your name *"
+msgstr ""
+
+#: framework/customizer/section-social.php:100
+msgid "Youtube"
+msgstr ""

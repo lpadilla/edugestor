@@ -1,0 +1,93 @@
+{
+    "key": "group_5ada39eba9f0e",
+    "title": "Services - Page",
+    "fields": [
+        {
+            "key": "field_5ada3a09a177a",
+            "label": "Navigation",
+            "name": "service_page_navigation",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "ajax": "Ajax",
+                "pagination": "Pagination",
+                "none": "None"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "ajax : Ajax",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ada3b67d1d6f",
+            "label": "Rows to show",
+            "name": "service_page_rows",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "4": "4"
+            },
+            "allow_null": 0,
+            "default_value": "1 : 1",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ada56380202a",
+            "label": "Items per page",
+            "name": "service_items_per",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 4,
+            "min": 1,
+            "max": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "services.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1525198938
+}

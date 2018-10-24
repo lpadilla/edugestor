@@ -1,0 +1,74 @@
+/*
+Theme Name: Bober
+Theme URI: https://themeforest.net/user/alian4x/portfolio
+Author: Alian4x
+Author URI: http://alian4x.com/
+Description: Bober is a modern one / multi page, minimalistic, easy to use, lightweight and fast loading, WordPress Rheme for building simple and beautiful business or personal website.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bober
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, featured-images, full-width-template, theme-options, translation-ready
+*/
+
+.display-page,.al-display-page{
+	display: none;
+}
+
+.wpb_headin,.wpb_revslider_heading{
+	display: none;
+}
+section, .section{
+	padding: 0 !important;
+}
+.wpb_revslider_element.wpb_content_element {
+  margin: 0;
+}
+header{
+	background-color: rgb(102, 165, 84) !important;
+}
+
+footer, footer .down-footer{
+	background: rgb(102, 165, 84) !important;
+}
+footer ul.social-links li a{
+	background-color: #6AA77D !important; 
+}
+footer ul.social-links li a:hover{
+	background-color: rgba(106,167,125,0.4) !important;
+}
+
+.blog-imgss{
+    height: 200px;
+}
+.pad-bl{
+    padding: 30px 0;
+}
+.pad-cont{
+    padding: 30px 0;
+}
+ul#bl-list{
+    list-style: none;
+}
+div.blog{
+    background-color: #F2F2F2;
+}
+div.al-posts{
+    background-color: white;
+}
+span.category{
+  color: #D83B4C;
+  font-weight: 500;
+}
+@media only screen and (max-width: 425px) {
+
+	div.fav-flex{
+		display: flex;
+	}
+
+	h3.fav-h3{
+		margin-top: 0;
+		padding-left: 10px;
+	}
+}
+

@@ -1,0 +1,1260 @@
+/*=============== Start blog pages =================*/
+blockquote
+	margin-bottom: 15px
+.video-post
+	iframe
+		width: 100%
+
+/*.blog-classic*/
+.read-post-classic
+	padding-bottom: 88px
+hr
+	+mt(0.3s)
+.blog-classic
+	.post-content-classic
+		.post-data
+			padding-top: 0
+	.post-thumb
+	.post.sticky
+		.post-data,.content
+			padding: 0
+		.post-data
+			margin-bottom: 20px
+	>
+	div
+		margin-bottom: 30px
+
+	.type-post
+		&:hover
+			hr
+				border-color: $accent-color
+
+/*--------------------------------------------------------------
+ *## Wp calendar
+ *--------------------------------------------------------------
+
+#calendar_wrap
+	background: #fff
+	border: 1px solid rgba(0, 0, 0, 0.1)
+	border-radius: 4px
+	padding: 10px
+
+#wp-calendar
+	width: 100%
+	border: none
+	margin: 0
+	caption
+		text-align: center
+	td, th
+		padding: 5px
+		font-size: 12px
+		text-align: center
+		border: none
+	td a
+		display: block
+		color: #fff
+		transition: 0.5s all ease
+		border-radius: 15px
+		padding: 2px 0
+		&:hover
+			background: #f8f8f8
+			text-decoration: none
+			color: #5c5c5c
+
+/* endblog-classic*/
+/* .right-sidebar*/
+
+.right-sidebar#sidebar
+	position: relative
+	padding-top: 120px
+
+.pagination-btns
+	background: $accent-color
+	text-align: center
+	h2
+		display: none
+	.pagination
+		margin: 0 auto
+		.current
+			background: $dark-accent
+		a
+			text-decoration: none
+			transition: all ease 0.76s
+			color: $white
+			&:hover
+				background: rgba(0, 0, 0, 0.2)
+			padding: 20px
+			display: inline-block
+			font-size: 28px
+			font-weight: 400
+		span
+			padding: 20px
+			display: inline-block
+			font-size: 28px
+			font-weight: 400
+			color: #fff
+
+#sidebar, footer
+	position: relative
+	padding-top: 120px
+	padding-bottom: 40px
+
+	h4
+		&:first-child
+			margin-top: 0
+		font-size: 17px
+		margin: 60px 0 20px 0
+		text-transform: uppercase
+		letter-spacing: 1.4px
+		line-height: inherit
+	h2, h3, h4, h5, h6
+		text-align: left
+	h2:after, h3:after, h5:after, h6:after
+		display: none
+	ul
+		margin: 0
+		padding: 0
+		overflow: hidden
+		li
+			list-style: none
+			margin: 0 0 10px 0
+			a
+				color: #5c5c5c
+				text-decoration: none
+				transition: all ease 0.57s
+				&:hover
+					color: $accent-color
+			.children li a:hover, .sub-menu li a:hover
+				color: $accent-color
+			&.cat-item a:before
+				font-family: FontAwesome
+				content: "\f192"
+				font-size: 11px
+				color: $accent-color
+				transform: translateY(-4px)
+				margin-right: 10px
+		&.menu li a:before
+			font-family: FontAwesome
+			content: "\f192"
+			font-size: 11px
+			color: $accent-color
+			transform: translateY(-4px)
+			margin-right: 10px
+		li
+			.children, .sub-menu
+				margin: 10px 0 0 15px
+			.children li a, .sub-menu li a
+				color: #7e7e7e
+				font-size: 14px
+	label
+		font-size: 14px
+
+	.search-form
+		position: relative
+		input[type='text']
+			display: inline-block
+			border-radius: 3px
+			border: 1px solid #dadada
+			padding-left: 20px
+			padding-top: 10px
+			padding-bottom: 9px
+			padding-right: 50px
+			font-size: 14px
+			color: #111
+			margin-bottom: 0
+			+mt(0.3s)
+			background-color: #fff
+			@include placeholder
+				color: #aba3a3
+			&:focus
+				box-shadow: none
+				outline: none
+				border-color: $accent-color
+		.search-submit
+			position: absolute
+			top: 0
+			right: 0
+			opacity: 0.9
+			background-repeat: no-repeat
+			background-color: $accent-color
+			width: 43px
+			height: 43px
+			display: inline-block
+			margin-right: 0
+			font-size: 15px
+			color: #fff
+			display: inline-block
+			border: none
+			transition: 0.5s all ease
+			border-radius: 0px 3px 3px 0px
+			float: right
+			&:hover
+				opacity: 1
+	ul.social-links
+		overflow: visible
+		margin-top: 25px
+		margin-left: 7px
+		li
+			margin-right: 17px
+			&:last-child
+				margin-right: 0
+			a
+				color: $white
+	p
+		margin-bottom: 10px
+	form
+		.selectize-input.full
+			font-weight: 400
+			color: #564e4e
+			border: 2px solid #928d8d
+		.selectize-control.single
+			.selectize-input:after
+				border-color: #928d8d transparent transparent transparent
+			.selectize-input.dropdown-active:after
+				border-color: transparent transparent #928d8d transparent
+	img
+		max-width: 100%
+		height: auto
+
+// Blog posts
+
+.blog, .single-post, .search-results, .category, .archive
+	h1
+		font-size: 47px
+	h2
+		font-size: 40px
+	h3
+		font-size: 35px
+	h4
+		font-size: 27px
+	h5
+		font-size: 20px
+	h6
+		font-size: 17px
+
+	.single-post
+		p
+			margin: 0 0 20px 0
+			color: #5c5c5c
+	.single-post
+		padding-top: 120px
+		.heading-title
+			margin-top: 30px
+			margin-bottom: 50px
+			h2
+				font-weight: 500
+	.post-data
+		margin-bottom: 15px
+		p
+			color: #6b6b6b
+			font-size: 14px
+			display: inline-block
+			margin-bottom: 0px
+			&:after
+				content: ""
+				color: $accent-color
+				display: inline-block
+				position: relative
+				margin-right: 9px
+				margin-left: 14px
+				font-family: "FontAwesome"
+			&:last-child
+				&:after
+					display: none
+			a
+				color: #6b6b6b
+				+mt(0.3s)
+				text-decoration: none
+				&:hover
+					color: $accent-color
+.blog-single-post
+	header
+		position: relative
+		background-color: $dark-accent
+	.sf-menu
+		a
+			color: $dark-accent
+		>li
+			&.sfHover
+				background: none
+				> a
+					color: $accent-color
+			> a
+				border-bottom: 5px solid transparent
+				transition: all .5s ease
+				color: $white
+				&:hover
+					color: $accent-color
+		ul
+			border-top: 2px solid $accent-color
+			background-color: $white
+			li
+				border-bottom: 1px dashed rgba(0, 0, 0, 0.1)
+				&:last-child
+					border-bottom: none
+				&:hover
+					// background-color: $white-blue-background
+					a
+						color: $dark-accent
+	.sf-arrows
+		li
+			> .sf-with-ul:after
+				border-top-color: $white
+			.sf-with-ul:focus:after,&:hover > .sf-with-ul:after
+				border-top-color: $accent-color
+		.sfHover
+			.sf-with-ul:after
+				border-top-color: $accent-color
+
+
+.post
+	margin-bottom: 60px
+	padding-bottom: 22px
+	border-bottom: 1px solid #e7e7e7
+	width: 100%
+	&:last-child
+		margin-bottom: 0
+		padding-bottom: 0
+		border: none
+	&.sticky
+		padding-bottom: 0
+		border-bottom: none
+	.post-thumb
+		position: relative
+		margin-bottom: 35px
+
+	&.sticky .post-thumb
+		margin-bottom: 0
+
+	img
+		max-width: 100%
+		vertical-align: bottom
+		transition: ease-in-out 0.50s
+
+	.content
+
+		+ p
+			font-size: 14px
+			font-weight: 700
+			color: #979797
+
+		.btn-default
+			color: $white
+			background-color: $accent-color
+			&:hover
+				color: #fff
+				text-decoration: none
+				transform: translateY(-2px)
+	h2, h1
+		margin: 25px 0 10px 0
+		font-weight: 700
+.slider-portfolio-single
+	.slide
+		img
+			width: 100%
+.post.sticky
+	position: relative
+	background: #f8f8f8
+	.post-data
+		padding-left: 0
+		padding-right: 30px
+		p
+			margin-bottom: 0
+	.content
+		padding: 40px 40px 55px 40px
+	&:after
+		content: ''
+		display: block
+		position: absolute
+		top: 0
+		right: 10px
+		width: 0
+		height: 0
+		border-style: solid
+		border-width: 0 50px 50px 0
+		border-color: transparent $accent-color transparent transparent
+	&:before
+		content: "\f135"
+		position: absolute
+		color: #fff
+		z-index: 1
+		top: 7px
+		right: 17px
+		font-size: 14px
+		display: inline-block
+		font-family: 'FontAwesome'
+		font-style: normal
+		font-weight: 400
+		line-height: 1
+		-webkit-font-smoothing: antialiased
+		-moz-osx-font-smoothing: grayscale
+	&:after
+		right: 0
+	&:before
+		right: 10px
+
+//Blog posts
+
+.post-thumbnail
+	margin-bottom: 20px
+.single-post
+	padding-bottom: 50px
+body.single-post
+	padding-bottom: 0
+.info span
+	margin: 0 5px
+	&:first-child
+		margin-left: 0
+
+
+
+.entry-content blockquote
+	margin: 30px 0
+
+.format
+	display: inline-block
+	background: #f8f8f8
+	font-size: 0
+	letter-spacing: 0
+	margin: -1px 0px 0px 20px
+	border-radius: 50%
+	width: 45px
+	height: 45px
+	line-height: 45px
+	text-align: center
+	vertical-align: middle
+	font-weight: normal
+	&:hover
+		background: #f8f8f8
+	&:before
+		font-family: FontAwesome
+		content: "\f0f6"
+		display: inherit
+		font-size: 15px
+		vertical-align: middle
+		color: #979797
+
+.format-standard .format:before
+	content: "\f03e"
+.type-page .format:before
+	content: "\f0f6"
+
+.format-chat .format:before
+	content: "\f086"
+
+.format-quote .format:before
+	content: "\f10d"
+
+.format-link .format:before
+	content: "\f0c1"
+
+.format-status .format:before
+	content: "\f075"
+
+.format-aside .format:before
+	content: "\f10c"
+
+.format-video .format:before
+	content: "\f04b"
+
+.format-audio .format:before
+	content: "\f025"
+
+.format-image .format:before
+	content: "\f03e"
+
+.format-gallery .format:before
+	content: "\f030"
+
+.gallery-item
+	display: inline-block
+	padding: 1.79104477%
+	text-align: center
+	vertical-align: top
+	width: 100%
+	figcaption
+		padding: 15px 5px 0 5px
+
+.gallery-columns-4 .gallery-item
+	max-width: 25%
+
+.gallery-columns-3 .gallery-item
+	max-width: 33.33%
+
+.gallery-item a
+	transition: all 300ms ease-in-out
+	&:hover
+		opacity: 0.6
+.excerpt
+	margin-top: 30px
+
+article.post .nav-links a, .comment-navigation div a
+	display: inline-block
+	background: #f8f8f8
+	padding: 10px
+	width: 49%
+	text-align: center
+	margin-top: 30px
+
+article.post .nav-links a:hover
+	background: #26a1e0
+	color: #fff
+
+.comment-navigation
+	div a:hover
+		background: #26a1e0
+		color: #fff
+	h1
+		display: none
+	div a
+		margin-top: 0
+
+#comment-nav-below
+	margin-bottom: 30px
+
+.page-links
+	margin-bottom: 30px
+	clear: both
+	margin: 0 0 1.5em
+	a
+		display: inline-block
+		color: #fff
+		padding: 10px 15px
+		background: #26a1e0
+	span
+		margin-right: 5px
+	a span
+		margin: 0
+
+
+
+
+
+
+
+//Content
+.post
+	.br-content
+		p
+			font-size: 15px
+
+
+
+h3#reply-title:after
+	content: ''
+	display: block
+	height: 2px
+	width: 70px
+	background: #26a1e0
+	margin: 20px 0 0 0
+	animation: title-border .5s ease-in
+
+.single-post
+	article
+		&:last-child
+			margin-bottom: 0
+			padding-bottom: 0
+			border: none
+.single-post, .single-product
+	header
+		position: relative
+		background-color: #212124
+	.content-wrap-lfm
+		header
+			position: fixed
+.blog, .single, .search-results, .category, .archive
+	//.content
+	//	a
+	//		color: $accent-color
+	//		&:hover
+	//			text-decoration: underline
+	blockquote
+		font-size: 16px
+		color: #3a3a3a
+		margin: 0
+		margin-bottom: 15px
+		padding: 20px
+		border-left: 3px solid #d9d9d9
+		background: #f8f8f8
+		ol:last-child, p:last-child, ul:last-child
+			margin-bottom: 0
+	.blockquote-post
+		.br-content
+			padding-bottom: 30px
+		.post-data
+			padding-top: 0
+
+	.format-quote
+		.tags
+			margin-top: 20px
+	.format-audio
+		.br-content
+			padding-bottom: 30px
+
+
+
+.single-post
+	.search-form
+		input[type='text']
+			display: inline-block
+			max-width: 300px
+		.search-submit
+			padding-left: 20px
+			display: inline-block
+			border-radius: 0px 3px 3px 0px
+			font-size: 17px
+			margin-right: 20px
+			padding-top: 7px
+			padding-bottom: 9px
+			padding-left: 16px
+			padding-right: 16px
+			position: relative
+
+.search-form
+	input
+		color: #555!important
+.tags
+	font-weight: 600
+	a
+		color: #555
+		font-weight: 300
+		font-size: 14px
+
+
+#wp-calendar td a
+	background-color: $accent-color
+
+.post-password-form
+	input[type='password']
+		border-radius: 3px
+		border: 1px solid #dadada
+		padding-left: 10px
+		padding-right: 10px
+		padding-top: 5px
+		padding-bottom: 5px
+		font-size: 14px
+		margin-left: 10px
+	input[type='submit']
+		background-color: $accent-color
+		display: inline-block
+		border: none
+		color: #fff
+		transition: 0.5s all ease
+		border-radius: 3px
+		font-size: 15px
+		padding-top: 11px
+		padding-bottom: 11px
+		padding-left: 20px
+		padding-right: 20px
+
+.br-blog-top
+	padding-top: 180px
+	.horizontal-line span
+		width: 75px
+/*==========  Blog Author Bio ==========*/
+
+.al-author-bio
+	overflow: hidden
+	background: #3a3a3a
+	padding: 30px
+	h3
+		color: #fff
+		font-size: 18px
+		font-weight: 600
+		margin-top: 0
+		margin-bottom: 10px
+		line-height: inherit
+	p
+		color: #eee
+		font-size: 14px
+
+	.al-profile-img
+		text-align: center
+		float: left
+		img
+			border-radius: 50%
+	.al-author-info
+		padding-left: 120px
+		color: #eee
+		p
+			margin: 0
+
+/*==========  Blog  ==========*/
+.content
+	a
+		color: $accent-color
+.al-entry-title
+	margin-bottom: 10px
+	margin-top: 0
+	font-size: 21px
+	font-weight: 700
+	line-height: 21px
+	&:after
+		display: none
+	a
+		color: #393939
+		text-decoration: none
+		transition: ease-in-out 0.60s
+		&:hover
+			color: $accent-color
+			text-decoration: none
+//Title
+h1.al-entry-title
+	font-size: 30px
+	margin-bottom: 20px
+h3.al-entry-title
+	font-size: 30px
+
+//Post share
+.al-share-post
+	padding-top: 20px
+	padding-bottom: 20px
+	h4,ul.al-share-post-links
+		display: inline-block
+	h4
+		font-size: 14px
+		font-weight: 500
+.al-share-post-links
+	padding-left: 20px
+	li
+		background-color: #ececec
+		display: inline-block
+		text-align: center
+		border-radius: 50%
+		margin-left: 5px
+		+mt(0.3s)
+		&:first-child
+			margin-left: 0
+		&:hover
+			background-color: $accent-color
+			a
+				color: $white
+		a
+			width: 40px
+			height: 40px
+			color: #797979
+			display: block
+			vertical-align: middle
+			font-size: 14px
+			+mt(0.3s)
+			line-height: 40px
+			i
+				vertical-align: middle
+//Single post
+.al-single
+	.post
+		margin: 0
+		padding-bottom: 30px
+	.al-entry-title
+		margin-top: 0
+		line-height: 42px
+	.al-post-data
+		padding-bottom: 10px
+		margin-bottom: 20px
+		border-bottom: 1px solid #ececec
+
+//Article
+article
+	hyphens: auto
+	word-wrap: break-word
+article.post
+	.content
+		p
+			font-size: 15px
+			//font-weight: 400
+			//color: #000
+article.type-page
+	.al-content-post
+		margin-bottom: 15px
+.al-entry-content
+	margin-bottom: 60px
+
+
+
+
+//Search form
+.al-search-page
+	p
+		margin-top: 0
+		font-weight: 400
+		margin-bottom: 10px
+	.search-form
+		input
+			border-radius: 3px
+			border: 1px solid #dadada
+			padding-left: 20px
+			padding-right: 20px
+			padding-top: 10px
+			padding-bottom: 10px
+			font-size: 14px
+			color: #555
+			+mt(0.3s)
+			&:focus
+				box-shadow: none
+				outline: none
+				border-color: $accent-color
+			@include placeholder
+				color: #c1c1c1
+		.search-submit
+			background-color: $accent-color
+			display: inline-block
+			border: none
+			color: #fff
+			transition: 0.5s all ease
+			font-size: 17px
+			padding-top: 7px
+			padding-bottom: 9px
+			padding-left: 16px
+			padding-right: 20px
+			left: -6px
+//Taggloud
+.tagcloud
+	overflow: hidden
+	a
+		display: block
+		float: left
+		background: #dfdfdf
+		border-radius: 2px
+		color: #5c5c5c
+		font-size: 14px!important
+		padding: 6px 12px
+		margin: 0 6px 6px 0
+		transition: all ease 0.55s
+		text-decoration: none
+		&:hover
+			background: $accent-color
+			color: #fff
+//Select
+//select
+//	background: #fff url("../img/arrow-down.png") 95% 50% no-repeat
+//	border: 1px solid rgba(0, 0, 0, 0.1)
+//	border-radius: 4px
+//	text-overflow: ''
+//	text-indent: 0.01px
+//	padding: 10px
+//	width: 100%
+//	font-size: 14px
+//	appearance: none
+//	outline: none
+select
+	background: #fff url("../img/arrow-down.png") 95% 50% no-repeat
+	appearance: none
+	border: 2px solid $white
+	border-radius: 0
+	background-color: transparent
+	display: block
+	width: 100%
+	text-overflow: ''
+	outline: none
+	text-indent: 0.01px
+	padding-top: 9px
+	padding-left: 20px
+	padding-right: 20px
+	padding-bottom: 8px
+	margin-bottom: 10px
+	color: #eeeeee
+	cursor: pointer
+	transition: all ease 0.50s
+	&:focus
+		box-shadow: none
+		outline: none
+		border-color: $accent-color
+	@include placeholder
+		font-size: 14px
+		color: $white
+//Page links
+.al-page-links
+	font-style: italic
+	font-size: 14px
+	margin-top: 35px
+	margin-bottom: 35px
+	.al-page-links-title
+		margin-right: 20px
+		padding-left: 0
+		padding-right: 0
+		background-color: transparent
+		color: #333
+	span
+		padding: 7px 14px 7px 11px
+	a
+		background-color: #3a3a3a
+		color: $white!important
+		padding: 7px 14px 7px 11px
+		text-align: center
+		transition: all ease 0.5s
+		text-decoration: none
+		&:hover
+			background-color: tint($dark-accent, 10%)
+		span
+			padding: 0
+			background-color: transparent
+	span
+		background-color: $accent-color
+		color: #fff
+
+/*==========  Blog post info ==========*/
+.al-post-data
+	margin-bottom: 15px
+	margin-top: 20px
+	font-size: 16px
+	color: #000
+	font-weight: 500
+	//font-style: italic
+	.al-post-author
+		display: inline-block
+		a
+			color: $accent-color
+	.al-category
+		display: inline-block
+		margin-right: 5px
+		a
+			color: $accent-color
+
+/*==========  Blog tags category ==========*/
+.al-post-tags
+	overflow: hidden
+	width: 100%
+	span
+		float: left
+		font-size: 14px
+		font-weight: 500
+		margin-right: 20px
+		padding: 3px 0px 2px  0px
+	a
+		display: block
+		float: left
+		background: rgba(0, 0, 0, 0.1)
+		border-radius: 2px
+		color: #5c5c5c
+		font-size: 13px
+		padding: 4px 10px
+		margin: 0 6px 6px 0
+		transition: all ease 0.55s
+		text-decoration: none
+		&:hover
+			background: $accent-color
+			color: #fff
+
+
+/*==========  Blog pagination ==========*/
+nav.al-blog-pagination
+	padding-top: 30px
+	padding-bottom: 30px
+	margin-top: 30px
+	margin-bottom: 30px
+	text-align: center
+	background-color: #f3f2f2
+
+	&:before
+		content: ""
+		display: block
+		height: 2px
+		width: 55px
+		background-color: $accent-color
+		margin: 0 auto
+		margin-bottom: 30px
+	a
+		color: #eee
+		padding: 11px 15px 11px 15px
+		background-color: $dark-accent
+		display: inline-block
+	span
+		padding: 11px 15px 11px 15px
+		background-color: $accent-color
+		color: #fff
+		display: inline-block
+
+/*==========  Blog masonry ==========*/
+.al-masonry-posts[data-size="4"] article
+	width: 23.5%
+	display: block
+.al-masonry-posts[data-size="3"] article
+	width: 32%
+	display: block
+.al-masonry-posts[data-size="2"] article
+	width: 49%
+	display: block
+.al-masonry-posts
+	.gutter-sizer
+		width: 2%
+.al-masonry-blog
+	background-color: #eee
+	.al-masonry-posts
+		article
+			box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05)
+			padding-bottom: 0
+			background-color: #fff
+			border-radius: 4px 4px 0px 0px
+			margin-bottom: 30px
+			.post-thumb
+				margin-bottom: 0
+				overflow: hidden
+				border-radius: 4px 4px 0px 0px
+			.content
+				padding: 20px
+			.al-entry-title
+				font-size: 25px
+				line-height: 32px
+	.al-ajax-navigation
+		margin-top: 0
+		padding-bottom: 30px
+	.single-blog
+		.single-post
+			padding-bottom: 0
+	#sidebar
+		.al-widget
+			border: 10px solid #e2e2e2
+			h4
+				background-color: #eee
+
+/*==========  Blog Comments ==========*/
+.al-comment-any-page
+	padding-bottom: 50px
+.al-comments
+	margin-top: 50px
+	//ul
+	//	margin: 0
+	//	padding: 0
+	//	li
+	//		margin-top: 50px
+	//		list-style: none
+	//ul.children li
+	//	margin-left: 30px
+	//	margin-top: 30px
+	//	padding-top: 30px
+	ul.al-comments-list
+		margin-bottom: 50px
+		padding: 0
+		li.al-comment-item
+			margin-top: 50px
+			list-style: none
+			ul.children li.al-comment-item
+				margin-left: 30px
+				margin-top: 30px
+				padding-top: 30px
+	svg.al-svg-line
+		display: block
+		height: 10px
+		width: 45px
+		fill: $accent-color
+		margin: 0 auto
+		margin-top: 13px
+		margin-bottom: 18px
+		margin-left: 0
+
+.al-comments-number
+	font-size: 20px
+	font-weight: 600
+	margin-bottom: 10px
+.al-comment-item
+	.al-comment-photo
+		float: left
+		img
+			border-radius: 50%
+			width: 70px
+			height: 70px
+.al-comments-title
+	h4
+		font-size: 20px
+		font-weight: 600
+		margin-bottom: 10px
+	svg.al-svg-line
+		display: block
+		height: 10px
+		width: 45px
+		fill: $accent-color
+		margin: 0 auto
+		margin-top: 13px
+		margin-bottom: 18px
+		margin-left: 0
+	a#cancel-comment-reply-link
+		color: #636363
+		font-size: 15px
+.al-comment-content
+	padding-left: 90px
+.al-comment-no-padding
+	padding-left: 0
+.al-comment-header
+	margin-bottom: 10px
+	a
+		display: block
+		color: #a2a2a2
+		font-size: 14px
+	span
+		display: block
+		font-weight: 500
+		color: #4c4c4c
+.al-comment-text
+	a.comment-reply-link
+		background-color: $accent-color
+		color: #fff
+		text-decoration: none
+		font-size: 12px
+		padding: 4px 8px 4px 8px
+		border-radius: 30px
+		+mt(0.5s)
+		&:hover
+			background-color: $dark-accent
+	a.comment-edit-link
+		color: #636363
+		font-size: 13px
+		margin-left: 5px
+	p
+		font-size: 14px
+		color: #3a3a3a
+		margin-bottom: 10px!important
+		background-color: #f7f7f7
+		padding: 15px 20px 15px 20px
+		letter-spacing: 0.3px
+//Form
+.al-comment-form
+	input[type='text'], textarea
+		outline: none
+		font-size: 14px
+		margin-bottom: 25px
+		color: #333
+		border: 2px solid #eee
+		&:active, &:focus
+			border-color: $accent-color
+		@include placeholder
+			color: #7f7979
+	input[type='submit']
+		margin-top: 0px
+		font-size: 14px
+		border-radius: 30px
+		color: $white
+		padding: 10px 30px 10px 30px
+		display: inline-block
+		background-color: $accent-color
+		text-transform: uppercase
+		font-weight: 500
+		transition: all ease .4s
+		line-height: 21px
+		border: 2px solid transparent
+		letter-spacing: 1.2px
+		&:hover
+			background-color: transparent
+			border-color: $accent-color
+			color: $accent-color
+		&:active, &:focus, &:visited
+			text-decoration: none
+.children
+	.al-comment-item
+		border-top: 1px solid #f3e8e8
+/*--------------------------------------------------------------
+ 	*## Single posts navigation(Prev/Next)
+ *--------------------------------------------------------------
+.al-post-single-navigation
+	display: table
+	table-layout: fixed
+	position: relative
+	width: 100%
+	background: #333
+	margin-top: 30px
+	margin-bottom: 30px
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+	.al-left, .al-right
+		display: table-cell
+		width: 50%
+		height: 100%
+		vertical-align: middle
+		a
+			color: #fff
+			text-decoration: none
+			line-height: 12px
+			padding: 20px 0 20px 0
+			i
+				padding: 20px
+				height: 52px
+				transition: all ease 0.4s
+		&:hover
+			a
+				i
+					background-color: #000
+	.al-left
+		text-align: left
+		border-right: 1px solid rgba(255, 255, 255, 0.05)
+		a
+			i
+				border-right:  1px solid rgba(227, 227, 227, 0.24)
+				margin-right: 20px
+	.al-right
+		text-align: right
+		a
+			i
+				margin-left: 20px
+				border-left:  1px solid rgba(227, 227, 227, 0.24)
+
+/*--------------------------------------------------------------
+ *## Widgets
+ *--------------------------------------------------------------
+#sidebar
+	.al-widget
+		margin-bottom: 50px
+		border: 10px solid #f3f3f3
+		position: relative
+		padding: 35px 30px 35px 30px
+		ul
+			li
+				color: #5c5c5c
+				&:last-child
+					margin-bottom: 0
+		.al-widget-title
+			position: absolute
+			top: -24px
+			text-align: center
+			left: 0
+			right: 0
+			margin: auto
+		h4
+			background-color: #fff
+			display: inline-block
+			padding: 10px 25px 10px 25px
+			margin: 0
+			font-size: 16px
+			line-height: 20px
+		select
+			border: 1px solid #ccc
+			border-radius: 3px
+			color: #5c5c5c
+			margin-bottom: 0
+			padding: 9px 20px
+/*--------------------------------------------------------------
+ *## Borderize default posts
+ *--------------------------------------------------------------
+.al-index-posts, .al-posts:not(.al-masonry-posts)
+	article:not(.sticky)
+		font-family: Poppins, sans-serif
+		border: none
+		.post-thumb
+			margin-bottom: 45px
+		.content
+			position: relative
+			margin-top: 0px
+			padding: 34px 40px 55px 50px
+			&:before
+				content: ''
+				position: absolute
+				border: 10px solid #f3f3f3
+				display: block
+				width: 100%
+				height: 100%
+				left: 0
+				top: 0px
+				transition: all ease 0.3s
+				z-index: -1
+			.al-entry-title
+				padding: 0
+				display: inline-block
+				background-color: #fff
+				position: absolute
+				z-index: 3
+				top: -30px
+				line-height: 50px
+				font-size: 30px
+				padding: 10px 30px 10px 30px
+		&:hover
+			.content
+				&:before
+					border-color: $accent-color
+

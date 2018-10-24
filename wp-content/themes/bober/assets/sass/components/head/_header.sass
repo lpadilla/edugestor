@@ -1,0 +1,153 @@
+.logo
+	text-decoration: none
+	display: inline-block
+	padding: 31px 0px 31px 0px
+	font-size: 25px
+	color: $white
+	text-transform: uppercase
+	font-weight: 700
+	letter-spacing: 2px
+	transition: all ease .6s
+	position: absolute
+	top: 50%
+	transform: translateY(-50%)
+	min-width: 90px
+	&:hover
+		text-decoration: none
+		color: $white
+	&:focus
+		color: $accent-color
+		outline: none
+		text-decoration: none
+	.logo-dark
+		display: none
+	img, svg
+		height: 45px
+
+header
+	// background-color: rgba(10, 9, 10, 0.4)
+	transition: all ease 0.50s
+	position: absolute
+	top: auto
+	width: 100%
+	background-color: transparent
+	z-index: 4
+	.top-menu
+		float: right
+	/*Dark logo*/
+	.dark-logo
+		.logo-white
+			display: none
+		.logo-dark
+			display: block
+form
+	.btn
+		margin-top: 25px
+.al-nav-container-rel
+	text-align: center
+.fullscreen-nav-open
+	header
+		.logo
+			color: #434343
+
+body:not(.al-sidenav)
+	.al-relative-header
+		position: relative
+		border-bottom: 1px solid #f1f1f1
+		.toggle-top span
+			background-color: #424242
+		.sf-menu > li > a
+			color: #424242
+		.toggle-mnu span
+			background-color: #424242
+			&:after, &:before
+				background-color: #424242
+		.toggle-mnu.on
+			span
+				background-color: transparent
+		.sf-menu
+			ul.sub-menu
+				margin-top: -22px
+				left: 16px
+				ul.sub-menu
+					margin-top: auto
+					left: 100%
+		.sf-arrows .sf-with-ul:after
+			color: #424242
+		.logo
+			color: #424242
+		.logo-dark
+			display: block
+		.logo-white
+			display: none
+		/*Dark logo*/
+	.al-relative-header.is-sticky
+		position: fixed
+		.logo-white
+			display: block
+		.logo-dark
+			display: none
+		.sf-menu > li > a
+			color: #fff
+		.sf-arrows .sf-with-ul:after
+			color: #fff
+		.logo
+			color: #fff
+		.toggle-mnu span
+			background-color: #fff
+			&:after, &:before
+				background-color: #fff
+		.toggle-mnu.on
+			span
+				&:after, &:before
+					background-color: #424242
+		.toggle-top span
+			background-color: #fff
+body:not(.al-sidenav).active-fullscreen-topnav
+	.al-relative-header
+		.logo-white
+			display: block
+		.logo-dark
+			display: none
+		.sf-menu > li > a
+			color: #fff
+		.sf-arrows .sf-with-ul:after
+			color: #fff
+		.logo
+			color: #fff
+		.toggle-top span
+			background-color: #fff
+		.on-top
+		span
+			&:nth-of-type(1)
+				background-color: transparent
+				transition-delay: 0s
+			&:nth-of-type(2)
+				width: 25px
+				transform: rotate(-45deg) translate(-6px, 0px)
+				transition-delay: 0s
+				background-color: $white
+			&:nth-of-type(3)
+				background-color: transparent
+				transition-delay: 0s
+			&:nth-of-type(4)
+				width: 25px
+				transform: rotate(45deg) translate(-5px, 0px)
+				transition-delay: 0s
+				background-color: $white
+			&:nth-of-type(5)
+				background-color: transparent
+				transition-delay: 0s
+
+.al-relative-header
+	.al-full-vh
+		height: calc(100vh - 95px)!important
+	.fullscreen-topnav
+		top: 63px
+.active-fullscreen-topnav
+	header.al-relative-header
+		.toggle-mnu span
+			background-color: #fff!important
+			&:after, &:before
+				background-color: #fff!important
+

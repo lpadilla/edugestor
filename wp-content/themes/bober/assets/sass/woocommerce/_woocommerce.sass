@@ -1,0 +1,875 @@
+@import "bourbon"					//Bourbon mixin library for Sass
+@import "../components/_vars"
+//Variables
+@import "../components/_mixins"
+//Some mixins
+
+.al-shop-archive-container
+	padding-top: 90px
+	background-color: #fdfdfd
+.woocommerce, .woocommerce-page 
+	.br-products
+		article.br-item-product
+			margin-bottom: 20px
+	.content
+		.description
+			p
+				margin-top: 0
+
+
+	#sidebar
+		padding-top: 0
+		.widget
+			margin-bottom: 40px
+		&:before
+			display: none
+		.al-widget.woocommerce
+			.al-widget-content
+				.al-widget-title
+					h4
+						background-color: #fdfdfd
+	.al-sidebar
+		padding-left: 15px
+	.woocommerce-ordering
+		select
+			border: none!important
+			color: #505050
+			font-weight: 400
+			padding-right: 0px
+			font-size: 15px
+
+
+	/*=========================*/
+	/*** START Item archive ***/
+	/*=======================*/
+	article.br-item-product
+		+mt(0.3s)
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+		a
+			text-decoration: none!important
+		.al-shop-content
+			padding: 20px
+			position: relative
+			display: inline-block
+			width: 100%
+			background-color: #fff
+		.woocommerce-loop-product__title
+			font-size: 14px
+			margin-bottom: 10px
+			margin-top: 0
+			font-family: "Poppins", sans-serif
+			color: #1f1e1e
+			text-decoration: none
+			line-height: inherit
+			display: block
+		.star-rating, .price
+			display: inline-block
+		.al-shop--rating-price
+			float: left
+		a.button
+			float: right
+			top: 50%
+			transform: translateY(-50%)
+			position: absolute
+			right: 20px
+		a.added_to_cart.wc-forward
+			display: none
+
+
+		span.price
+			display: block
+			color: #333
+			line-height: 16px
+			font-size: 15px
+			ins
+				font-size: 16px
+				text-decoration: none
+				span
+					color: #423e3e
+			del
+				font-size: 14px
+				margin-right: 10px
+	/*=========================*/
+	/*** END Item archive ***/
+	/*=======================*/
+
+	div.br-item-product .price, div.br-item-product span.price
+		font-size: 14px
+		font-weight: 400
+	div.br-item-product .price ins, div.br-item-product span.price ins
+		font-weight: 500
+	a.added_to_cart
+		font-size: 14px
+		color: #333
+		margin-left: 15px
+		+mt(0.3s)
+		&:hover
+			text-decoration: underline!important
+			color: $accent-color
+
+	//Rating
+	.star-rating
+		font-size: 14px
+		width: 74px
+		span
+			color: #eeb544
+	span.reviewer
+		font-size: 14px
+		color: #555
+	// on SALE
+	span.onsale
+		position: absolute
+		top: 7.5px
+		left: 7.5px
+		color: #fff
+		padding: 4px 10px
+		letter-spacing: 1px
+		line-height: inherit
+		font-weight: normal
+		font-size: 12px
+		border-radius: 0
+		min-height: auto
+		min-width: auto
+		z-index: 3
+		background-color: $accent-color
+
+	a.button, a.button.alt
+		background-color: $accent-color
+		+mt(0.4s)
+		color: $white!important
+		font-size: 14px
+		font-weight: 400
+		border-radius: 15px
+		&:hover
+		  	background-color: $dark-accent
+		  	color: $white
+
+	.woocommerce-result-count
+		font-size: 15px
+		font-weight: 400
+		font-family: "Poppins", sans-serif
+		margin-bottom: 30px
+
+	.br-products
+		clear: both
+
+	//WC Search Product Form
+	.woocommerce-product-search
+		position: relative
+		width: 100%
+		input[type='search']
+			line-height: 21px
+			display: inline-block
+			border-radius: 3px
+			border: 1px solid #dadada
+			padding-left: 10px
+			padding-top: 10px
+			padding-bottom: 10px
+			padding-right: 10px
+			font-size: 14px
+			color: #111
+			margin-bottom: 0
+			width: 64%
+			+mt(0.3s)
+			border-right: none
+			box-sizing: inherit
+			@include placeholder
+				color: #aba3a3
+			&:focus
+				box-shadow: none
+				outline: none
+				border-color: $accent-color
+		button
+			top: 0
+			right: 0
+			opacity: 0.9
+			background-repeat: no-repeat
+			background-color: $accent-color
+			width: 36%
+			height: 43px
+			margin-right: 0
+			font-size: 15px
+			color: #fff
+			display: inline-block
+			border: none
+			transition: 0.5s all ease
+			border-radius: 0px 3px 3px 0px
+			float: right
+			position: relative
+			left: -1px
+			&:hover
+				opacity: 1
+
+	//Sidebar styling
+	.woocommerce-mini-cart
+		.woocommerce-mini-cart-item
+		  	padding-left: 23px
+		  	padding-top: 0
+		  	position: relative
+		  	a.remove
+		  		position: absolute
+		  		top: 3px
+			  	left: 0
+	.woocommerce-mini-cart__buttons
+		a:first-child
+			margin-right: 10px
+	ul.product_list_widget
+		li
+			a
+				font-size: 15px
+				font-weight: 500
+				color: #000
+			.woocommerce-Price-amount
+			  	font-size: 14px
+			del
+				span.woocommerce-Price-amount
+					color: #333
+					opacity: .5
+			ins
+				background-color: transparent
+				span.woocommerce-Price-amount
+					color: #333
+				  	font-weight: 500
+	.widget_shopping_cart .total, .woocommerce.widget_shopping_cart 
+		.total
+			border-top: 1px solid #dedcde
+
+
+	/*==========   Start WC Inputs  ==========*/
+	.woocommerce-checkout, .form-row
+		input,textarea
+			background-color: transparent
+			border: none
+			color: #333!important
+			border-radius: 2px
+			border: 2px solid #ccc
+			padding-top: 7px
+			padding-bottom: 7px
+			padding-left: 10px
+			padding-right: 10px
+			+mt(0.5s)
+			&:hover, &:active, &:focus
+				border-color: $accent-color
+			@include placeholder
+				color: #555
+		input[type='submit']
+			border: none
+		.form-row
+			label
+				color: #333
+				margin-bottom: 7px
+		h3
+			font-size: 23px
+			font-weight: 500
+			margin-bottom: 10px
+
+
+	/*==========   Start WC Inputs  ==========*/
+
+	input.button.alt
+		background-color: $accent-color
+		font-weight: 400
+		border: none
+	.select2-container--default
+		.select2-selection--single
+			border: 2px solid #ccc
+			padding-top: 4px 
+			padding-bottom: 4px
+			border-radius: 2px
+
+	.select2-container
+		.select2-selection--single
+			height: auto
+			.select2-selection__arrow
+				top: 7px
+				right: 9px
+
+	table.shop_table th
+		background-color: #eee
+
+	/*==========   End WC quantity  ==========*/
+	form.cart div.quantity
+		margin: 0!important
+		border-right: 2px solid shade($accent-color, 10px)
+	.quantity
+		input[type='number']
+			border: none
+			font-weight: 400
+			padding: 11px 0px 10px 17px
+			background-color: $accent-color
+			color: #fff
+			text-align: center
+			outline: none
+			padding-right: 5px
+			margin-bottom: 0
+
+	td.product-quantity
+		.quantity
+			input[type='number']
+				border-radius: 0
+				padding-top: 4px
+				padding-bottom: 3px
+			input[type='button']
+				line-height: 14px
+				width: 27px
+
+
+	/*==========   End WC quantity  ==========*/
+
+
+	/*==========   End WC Product-remove  ==========*/
+
+	a.remove
+		+mt(0.3s)
+		color: $accent-color!important
+		&:hover
+			background-color: $accent-color
+
+
+	/*==========   End WC Product-remove  ==========*/
+	input.button
+		background-color: $accent-color
+		transition: all 0.4s ease
+		font-size: 14px
+		font-weight: 400
+		border-radius: 15px
+		color: $white!important
+		font-weight: 500
+		padding-right: 20px
+		padding-left: 20px
+		padding-top: 10px
+		padding-bottom: 10px
+		&:disabled[disabled]
+			color: $white
+		&:hover
+			background-color: $dark-accent
+
+	table.shop_table
+		td
+			border-right: 1px solid rgba(0,0,0,.1)
+		td.product-name
+			a
+				color: #333
+		td.actions
+			padding-top: 10px
+			padding-bottom: 10px
+			.coupon
+				.input-text
+					padding: 3px 10px 1px
+					color: #1f1e1e
+
+
+	.coupon
+		position: relative
+		.input-text
+			border-radius: 2px
+			font-size: 14px
+			border: 1px solid #ccc
+			background-color: #fff
+			color: #555!important
+			padding-left: 10px
+			padding-right: 40px
+			padding-top: 8px
+			padding-bottom: 8px
+			border: 1px solid #dadada
+			border-radius: 3px
+			width: 100%!important
+			@include placeholder
+				color: #aba3a3
+		button[type='submit']
+			+mt(0.3s)
+			position: absolute
+			right: 0
+			background-color: $accent-color
+			color: $white
+			border: none
+			border-radius: 0 3px 3px 0
+			padding: 3px 10px 3px 10px
+			outline: none
+			&:hover
+				opacity: 1
+	form.checkout_coupon
+		padding: 19px 20px 10px 20px
+		.coupon
+			button[type='submit']
+				top: 0
+				padding: 7px 15px 8px 15px
+
+	input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt
+		background-color: $accent-color
+		border-radius: 30px
+	/*==========   Start WC Proceed to checkout  ==========*/
+	.cart_totals 
+		h2
+			font-size: 20px
+			font-weight: 500
+			margin-bottom: 20px
+		.wc-proceed-to-checkout
+			a.checkout-button
+				border-radius: 4px
+				text-transform: uppercase
+				font-weight: 500
+	/*==========   End WC Proceed to checkout  ==========*/
+
+
+
+	/*==========   Start WC Sidebar Filter Price  ==========*/
+
+
+	.widget_price_filter
+		.ui-slider
+			.ui-slider-range
+				background-color: #ffc7568c
+			.ui-slider-handle
+				background-color: $accent-color
+				border: 2px solid #fee0a8
+		.price_slider_wrapper
+			.ui-widget-content
+				background-color: transparent
+			.price_slider_amount
+				.price_label
+					display: inline-block
+					padding-left: 10px
+					padding-right: 10px
+					background: rgb(241, 241, 241)
+					border-radius: 2px
+				button[type='submit']
+					background-color: $accent-color
+					color: $white
+					font-weight: 400
+					font-size: 14px
+					+mt(0.3s)
+
+
+	/*==========   End WC Sidebar Filter Price  ==========*/
+
+/*==========   Start WC Single Product  ==========*/
+
+
+body.single-product
+	header
+		position: relative!important 
+/*==========   End WC Single Product  ==========*/
+
+
+
+/*==========   Start WC Messages  ==========*/
+
+.woocommerce-message, .woocommerce-info
+	border-top-color: $accent-color
+	color: #333
+	&:before
+		color: $accent-color
+	a
+		color: #555
+		&:hover
+			color: $accent-color
+	.button
+		color: $white!important
+		&:hover
+			color: $white!important
+
+
+/*==========   End WC Messages  ==========*/
+
+
+
+
+/*==========   Start WC Account ==========*/
+.woocommerce-account
+	nav.woocommerce-MyAccount-navigation
+		ul
+			margin-top: 0
+			li
+				list-style: none
+				border: 1px solid #eee
+				+mt(0.5s)
+				border-bottom: none
+				&:last-child
+					border-bottom: 1px solid #eee
+				&:hover
+					background-color: #eee
+					a
+						color: #333
+		
+				a
+					padding: 10px
+					padding-left: 20px
+					color: #555
+					text-decoration: none
+					+mt(0.5s)
+					display: block
+					font-size: 15px
+			.is-active
+				a
+					color: #000
+
+	input[type='submit']
+		margin-top: 20px
+		+mt(0.3s)
+	.woocommerce-Address-title
+		h3
+			
+			display: inline-block
+			margin-top: 0
+		a
+			position: relative
+			top: 9px
+			color: #555
+	address
+		padding: 10px
+		background-color: #eee
+		font-size: 14px
+		text-transform: none
+		border-radius: 3px
+	.woocommerce-MyAccount-content
+		section
+			padding-top: 20px
+			padding-bottom: 0px
+
+
+/*==========   End WC Account  ==========*/
+
+
+
+/*==========   Start WC Singlo Product Page  ==========*/
+
+.woocommerce.single-product
+	section
+		padding-top: 30px
+		padding-bottom: 30px
+	#sidebar
+		padding-top: 40px
+	header
+		top: 0
+	.single-post
+		padding-bottom: 20px
+	.br-product-single
+		.woocommerce-message, .woocommerce-info, .woocommerce-error 
+			margin-bottom: 0
+			margin-top: 40px
+	nav.woocommerce-breadcrumb
+		display: none
+	.single-post
+		margin-top: 50px
+		position: relative 
+	.entry-summary
+		margin-top: 0
+		h1
+			font-size: 25px
+			margin-top: 0
+			margin-bottom: 5px
+			font-weight: 500
+			line-height: inherit
+	.woocommerce-review-link
+		font-size: 14px
+		color: #555
+	h2
+		font-size: 22px
+		font-weight: 500
+		margin-bottom: 10px
+		margin-top: 0
+		line-height: inherit
+	div.product
+		p.price
+			color: #333
+			font-weight: 400!important
+			border-bottom: 1px solid #eee
+			padding-bottom: 10px
+			margin-top: 0
+			font-size: 27px
+			ins
+				font-weight: 500
+				text-decoration: none
+			del
+				font-size: 20px
+		div.images
+			.woocommerce-product-gallery__trigger
+				z-index: 2
+		span.price ins
+			font-weight: 500
+		.single_add_to_cart_button
+			font-weight: 500
+			padding: 15px 20px 15px 20px
+			font-size: 16px
+			background-color: $accent-color
+			border-radius: 0 3px 3px 0
+			text-transform: uppercase
+			letter-spacing: 0.8px
+			outline: none!important
+			+mt(0.5s)
+			&:hover
+				background-color: shade($accent-color, 10%)
+		// WC tabs
+		.woocommerce-tabs
+			border-top: 1px solid #eaeaea
+			padding-top: 30px
+			.panel
+				margin-bottom: 0
+			ul.tabs
+				padding-left: 0
+				&:before
+					display: none
+				li
+					border: none
+					padding-left: 0
+					margin: 0
+					background-color: transparent
+					&:before, &:after
+						display: none
+					a
+						font-size: 14px
+						font-weight: 400
+				li.active
+					color: $accent-color
+					a
+						border-bottom: 1px solid $accent-color
+			.woocommerce-Tabs-panel--description
+				p
+					margin-top: 0
+					color: #737373
+					font-size: 15px
+
+
+	.woocommerce-product-details__short-description
+		padding: 10px
+		padding-left: 15px
+		padding-bottom: 15px
+		margin-top: 20px
+		margin-bottom: 20px
+		background-color: rgba(239, 238, 238, 0.05)
+		font-size: 14px
+		border: double rgba(204, 204, 204, 0.24)
+		p
+			margin: 0
+			padding: 0
+			color: #555
+	.product_meta
+		background-color: rgba(239, 238, 238, 0.05)
+		font-size: 14px
+		border: double rgba(204, 204, 204, 0.24)
+		padding: 10px
+		padding-left: 15px
+		padding-right: 15px
+		> span
+			display: block
+		span, a
+			font-size: 14px
+		span
+			margin-top: 5px
+			color: #797878
+			font-weight: 400
+			&:first-child
+				margin-top: 0
+			span
+				font-weight: 400
+				margin: 0
+				color: #444
+			a
+				color: #555
+	form.cart
+		margin-bottom: 22px
+	//////////
+
+	//comment form
+	ol.commentlist
+		padding-left: 0
+	span.required
+		color: red
+	.woocommerce-noreviews
+		margin-bottom: 15px
+	#review_form_wrapper
+		background-color: #f1f1f1
+		border-radius: 3px
+		padding: 25px
+	#review_form
+		#respond 
+			.comment-form-rating
+				margin-top: 15px
+				label
+					font-size: 16px
+				p.stars
+					font-size: 30px
+					margin-top: 10px
+
+					a
+						color: $accent-color
+	#respond
+		.comment-respond
+			.comment-reply-title
+				font-weight: 500
+				font-size: 18px
+			.comment-notes
+				margin-bottom: 20px
+				border-bottom: 1px solid #e6e6e6
+				font-size: 14px
+				padding-bottom: 20px
+		.comment-form
+			input,textarea
+				background-color: $white
+				margin-top: 15px
+				color: #333!important
+				@include placeholder
+					color: #aba3a3
+			label
+		.comment-form-author, .comment-form-email
+			display: inline-block
+			width: 50%
+			padding-right: 0
+			margin-top: 20px!important
+		.comment-form-author
+			padding-right: 15px
+		.comment-form-email
+			padding-left: 15px
+
+		.form-submit
+			width: 100%
+			display: block
+			input#submit
+				background-color: $accent-color
+				+mt(0.3s)
+				color: $white!important
+				font-weight: 400
+
+
+	//Ralated products
+	.related.products, .up-sells
+		h2.br-heading-product
+			border-top: 1px solid #eaeaea
+			padding-top: 20px
+			padding-bottom: 20px
+			margin-top: 20px
+			font-size: 19px
+			margin-bottom: 0
+		.woocommerce-loop-product__title
+			border-top: 0
+
+
+
+/*==========   End WC Single Product Page  ==========*/
+
+
+/*==========   End WC Header Cart  ==========*/
+
+.br-header-cart
+	float: left
+	padding-top: 32px
+	padding-bottom: 32px
+	padding-left: 15px
+	.cart-contents
+		text-decoration: none
+		border-left: 1px solid #eee
+		padding-left: 9px
+		line-height: 30px
+		padding-top: 2px
+		&:before
+			font-family: WooCommerce
+			content: "\e01d"
+			font-size: 19px
+			font-style: normal
+			font-weight: 400
+			color: $white
+			+mt(0.4s)
+	&:hover
+		text-decoration: none
+
+	.cart-contents-count
+		color: #fff
+		background-color: $accent-color
+		font-weight: 400
+		font-size: 13px
+		border-radius: 4px
+		padding: 1px 6px
+		line-height: 1
+		vertical-align: middle
+		position: relative
+		top: -3px
+		margin-left: 5px
+.is-sticky
+	.br-header-cart
+		padding-top: 11px
+		padding-bottom: 11px
+		.cart-contents
+			border-left: 1px solid #555
+			&:before
+				color: $dark-accent
+
+/*==========   End WC Header Cart  ==========*/
+
+/*==========  WC pagination ==========*/
+//WC pagination
+//nav.woocommerce-pagination
+//	margin-bottom: 40px
+//	margin-top: 30px
+//	ul.page-numbers
+//		border: none
+//		> *
+//			border: none
+//		li
+//			margin-right: 5px
+//			.page-numbers
+//				color: #333
+//				padding: 11px 15px 11px 15px
+//				&:hover
+//					background-color: $dark-accent
+//					color: $white
+//					+mt(0.4s)
+//		span.current
+//			background-color: $dark-accent
+//			color: $white
+.woocommerce
+	nav.woocommerce-pagination
+		padding-top: 30px
+		padding-bottom: 30px
+		margin-top: 30px
+		margin-bottom: 30px
+		text-align: center
+		background-color: #f3f2f2
+		&:before
+			content: ""
+			display: block
+			height: 2px
+			width: 55px
+			background-color: $accent-color
+			margin: 0 auto
+			margin-bottom: 30px
+
+		ul.page-numbers
+			border: none
+			> *
+				border: none
+
+			span
+				padding: 15px
+				background-color: $accent-color
+				color: #fff
+				display: inline-block
+			li
+				margin-right: 5px
+				span.current
+					background-color: $accent-color
+					color: #fff
+				.page-nubmers
+					+mt(0.4s)
+					line-height: 26px
+					padding: 15px
+				a
+					color: #fff
+					padding: 15px
+					background-color: $dark-accent
+					display: inline-block
+					&:hover
+						background-color: tint($dark-accent, 10%)
+
+
+
+
+
+@import "_media.sass"	// Media
+
+
+
+
+
+
+

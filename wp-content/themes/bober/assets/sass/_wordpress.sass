@@ -1,0 +1,185 @@
+//Wigets
+.al-widget
+  img
+    max-width: 100%
+    height: auto
+  p
+    margin-top: 0
+  h5.al-widget-title
+    font-size: 18px
+    margin-top: 0
+    margin-bottom: 15px
+    color: #fff
+    font-weight: 600
+    letter-spacing: 1.5px
+    text-transform: uppercase
+  ul
+    margin: 0
+    padding: 0
+    overflow: hidden
+    li
+      list-style: none
+      margin: 0 0 10px 0
+      color: #ccc
+      font-size: 12px
+      a
+        color: #fff
+        text-decoration: none
+        transition: all ease 0.57s
+        font-size: 15px
+        &:hover
+          color: $accent-color
+      .children li a:hover, .sub-menu li a:hover
+        color: $accent-color
+      a:before
+        font-family: FontAwesome
+        content: "\f192"
+        font-size: 11px
+        color: $accent-color
+        transform: translateY(-4px)
+        margin-right: 10px
+    &.menu li a:before
+      font-family: FontAwesome
+      content: "\f192"
+      font-size: 11px
+      color: $accent-color
+      transform: translateY(-4px)
+      margin-right: 10px
+    li
+      .children, .sub-menu
+        margin: 10px 0 0 15px
+      .children li a, .sub-menu li a
+        font-size: 14px
+    li
+      ul
+        li
+          color: #ccc
+
+
+.screen-reader-text
+  clip: rect(1px, 1px, 1px, 1px)
+  position: absolute !important
+  height: 1px
+  width: 1px
+  overflow: hidden
+
+.screen-reader-text:focus
+  background-color: #f1f1f1
+  border-radius: 3px
+  box-shadow(0 0 2px 2px rgba($black, .1))
+  clip: auto !important
+  color: #21759b
+  display: block
+  font-size: 14px
+  font-size: 0.875rem
+  font-weight: bold
+  height: auto
+  left: 5px
+  line-height: normal
+  padding: 15px 23px 14px
+  text-decoration: none
+  top: 5px
+  width: auto
+  z-index: 100000
+
+.wp-caption
+  max-width: 100%
+  padding: 0
+  text-align: center
+  p.wp-caption-text
+    font-size: 13px
+    font-style: italic
+    margin: 4px 0 0
+    position: relative
+    background-color: #3a3a3a
+    display: inline-block
+    padding: 5px 10px 5px 10px
+    color: #fff
+    top: -20px
+    a
+      color: #c6c1ca
+
+//Alignments
+.alignleft
+  display: inline
+  float: left
+  margin-right: 1.5em
+  margin-bottom: 1.5em
+.alignright
+  display: inline
+  float: right
+  margin-left: 1.5em
+  margin-bottom: 1.5em
+.aligncenter
+  clear: both
+  display: block
+  margin-left: auto
+  margin-right: auto
+  margin-bottom: 1.5em
+.al-content-protected
+  padding: 90px 0
+  display: flex
+  align-items: center
+  justify-content: center
+  form
+    max-width: 350px
+    margin-left: 0
+    margin-right: 0
+    border: 1px solid #fcfcfc
+    padding: 30px
+    box-shadow: 4px 0 19px rgba(66, 78, 92, 0.35)
+    .al-content-protected__description
+      margin-top: 0
+      font-size: 15px
+    input[type=password]
+      display: block
+      width: 100%
+      border: 2px solid #f0f0f0
+      padding: 10px 0px 10px 15px
+      outline: none!important
+      font-size: 14px
+
+.gallery-caption,.bypostauthor,.sticky
+  visibility: visible
+
+table
+  border-bottom: 1px solid #ededed
+  border-collapse: collapse
+  border-spacing: 0
+  font-size: 14px
+  line-height: 2
+  margin: 0 0 20px
+  width: 100%
+
+caption, th, td
+  font-weight: normal
+  text-align: left
+
+th, td
+  padding: 10px
+
+caption
+  font-size: 16px
+  margin: 20px 0
+
+th
+  font-weight: bold
+  text-transform: uppercase
+
+td
+  border-top: 1px solid #ededed
+  padding: 6px 10px 6px 0
+  padding: 0
+
+th
+  padding: 0
+pre, code
+  background: #eee
+  margin-top: 15px
+  font-family: "Courier 10 Pitch", Courier, monospace
+  font-size: 15px
+  margin-bottom: 15px
+  max-width: 100%
+  overflow: auto
+  padding: 1.6em
+  display: block

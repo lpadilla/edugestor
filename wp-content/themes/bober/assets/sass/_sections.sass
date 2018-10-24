@@ -1,0 +1,878 @@
+/*home*/
+.dark-load
+	header
+		z-index: 6
+		background-color: #1d1d1d
+
+/*About us*/
+.about-us
+	background-color: $white
+	position: relative
+	
+/*Into slider*/
+.al-inslider-item
+	background-color: #111
+	color: $white
+	text-align: center
+	padding-top: 50px
+	padding-bottom: 50px
+	padding-left: 15px
+	padding-right: 15px
+	height: 100%
+	text-align: center
+	.al-icon-text-container
+		background-color: #3b3b3b
+		width: 70px
+		height: 70px
+		margin-left: auto
+		margin-right: auto
+		margin-bottom: 30px
+		line-height: 70px
+		border-radius: 50%
+		box-shadow: 0 0 43px rgba(140, 139, 139, 0.18)
+	i
+		font-size: 30px
+
+		color: $white
+	h4
+		font-size: 18px
+		font-weight: 500
+		margin-top: 0
+		margin-bottom: 10px
+		letter-spacing: 0.6px
+	p
+		font-size: 14px
+		color: $white
+
+/*==========   	Item about  ==========*/
+.item-about
+	position: relative
+	margin-bottom: 50px
+	.icon
+		display: inline-block
+		padding-right: 10px
+		float: left
+		min-width: 80px
+		.al-mini-icon
+			background-color: #fff
+			text-align: center
+			border-radius: 50%
+			height: 70px
+			width: 70px
+			line-height: 70px
+			vertical-align: middle
+			position: relative
+			z-index: 2
+			box-shadow: 0 0 30px rgba(45, 45, 45, 0.08)
+			border: 1px solid #f5f5f5
+			+mt(0.4s)
+			i
+				font-size: 33px
+				color: $accent-color
+				line-height: inherit
+				+mt(0.4)
+		.bg-icon
+			position: absolute
+			top: -60px
+			left: 50px
+			z-index: 1
+			i
+				font-size: 152px
+				opacity: 0.0250
+	.content
+		padding-left: 20px
+		overflow: hidden
+		h3
+			font-size: 20px
+			font-weight: 600
+			letter-spacing: 0.8px
+			color: #555
+			margin-bottom: 0
+			letter-spacing: 0.2px
+			margin-top: 0
+			span
+				color: $accent-color
+		p
+			margin-top: 8px
+			font-size: 15px
+			line-height: 22px
+			color: #6f6e6e
+			letter-spacing: 0.1px
+			line-height: 30px
+
+		ul.list
+			margin-top: 10px
+			li
+				color: #333333
+				letter-spacing: 0.1px
+				line-height: 30px
+				font-size: 16px
+	&:hover
+		.al-mini-icon
+			background-color: $accent-color
+			transform: scale(0.93)
+			color: #fff
+			&:after
+				animation: sonarEffect 1.3s ease-out 75ms
+			i
+				color: #fff
+
+/*==========   Start Choose us  ==========*/
+.item-choose
+	text-align: center
+	.al-mini-icon
+		margin-right: 0
+	.icon
+		min-width: auto
+		float: none
+		padding: 0
+		margin-bottom: 20px
+		position: relative
+		.bg-icon
+			left: 50%
+			transform: translateX(-50%)
+			vertical-align: middle
+			i
+				font-size: 250px
+				opacity: 0.0250
+
+	.content
+		padding-left: 0
+		position: relative
+		z-index: 2
+		h3
+
+
+.light-item
+	.icon
+		i
+			color: $white
+	.content
+		h3
+			color: $white		
+		p		
+			color: #e2e2e2
+
+/*Services section*/
+.services-section
+	.slick-list
+		overflow: visible
+	.ui-tabs-panel
+		.heading-title
+			margin-bottom: 0
+		p
+			font-size: 14px
+			line-height: 23px
+	.link-full
+		padding-top: 60px
+
+/*  How we work section */
+.al-icon-large-container.al-line-after
+	&:after
+		content: ""
+		display: block
+		width: 70px
+		height: 1px
+		border-top: 2px dashed #ccc
+		position: absolute
+		right: -34px
+		top: 99px
+.al-icon-large-container
+	.al-icon-container
+		border-radius: 50%
+		border: 3px solid rgba(66, 66, 66, 0.05)
+		height: 195px
+		width: 195px
+		text-align: center
+		margin: 0 auto
+		margin-bottom: 35px
+		box-shadow: 0 0 30px rgba(134, 134, 134, 0.15)
+		padding: 49px
+		position: relative
+		transform-style: preserve-3d
+		&:hover
+			border-color: $accent-color!important
+			background: rgba($accent-color, 0.05)!important
+			.al-icon
+				border-color: lighten($accent-color, 90%)!important
+				background-color: $accent-color!important
+				i
+					color: #fff!important
+				&:after
+					animation: sonarEffect 1.3s ease-out 75ms
+		.al-icon
+			width: 90px
+			height: 90px
+			background-color: #353535
+			display: inline-block
+			border-radius: 50%
+			transition: all ease 0.75s
+			transform: translateZ(20px)
+			line-height: 90px
+			i
+				font-size: 40px
+				color: $white
+	p
+		margin-top: 14px
+		font-size: 15px
+		color: #808080
+		letter-spacing: 0.1px
+		line-height: 30px
+		font-weight: 400
+	h3, p
+		text-align: center
+	h3
+		font-size: 19px
+		font-weight: 600
+		margin-bottom: 10px
+		color: #555
+
+.al-icon-progress
+	text-align: center
+	i
+		font-size: 65px
+		line-height: 65px!important
+
+	p
+		font-size: 18px
+		margin-top: 20px
+		font-weight: 400
+		letter-spacing: 2px
+
+
+
+.container-carousel
+		position: relative
+.portfolio
+	>
+		div
+			padding: 0
+
+.portfolio-pd
+	>
+		article
+			padding-left: 15px
+			padding-right: 15px
+			margin-bottom: 15px
+			margin-top: 15px
+.item-portfolio
+	position: relative
+	// overflow: hidden
+	img
+		display: block
+		// position: absolute
+		width: 100%
+		top: 0
+.content-wrap
+	height: 100%
+	width: 100%
+	overflow: hidden
+	display: table
+	.content-va
+		display: table-cell
+		vertical-align: middle
+
+.item-wrap
+	position: relative
+	overflow: hidden
+	.tizer-circle
+		position: absolute
+		right: 25px
+		top: 25px
+	.content-wrap
+		position: relative
+		
+	img
+		+mt(0.5s)
+		transition-delay: 0.3s
+		filter: blur(0)
+		backface-visibility: hidden
+	&:hover
+		.content
+			opacity: 1
+		img
+			filter: blur(10px)
+		.content
+			&::before
+				background-color: rgba(#000, 0.7)
+		h2, p
+			color: $white
+	.content
+		padding-left: 40px
+		padding-right: 40px
+		position: absolute
+		text-align: center
+		height: 100%
+		width: 100%
+		top: 0
+		&::before
+			display: block
+			top: 10px
+			+mt(0.5s)
+			right: 10px
+			bottom: 10px
+			left: 10px
+			position: absolute
+			content: ''
+	h2
+		font-size: 18px
+		margin-bottom: 0px
+		line-height: 27px
+		margin-top: 0
+		color: $white
+		font-weight: 600
+		text-transform: uppercase
+
+	p
+		margin-top: 10px
+		font-size: 14px
+		color: $white
+		&:before
+			content: ""
+			display: block
+			height: 1px
+			width: 30px
+			background-color: $accent-color
+			margin: 0 auto
+			margin-top: 12px
+			margin-bottom: 8px
+
+/*Section We are in numbers*/
+.al-item-number
+	text-align: center
+	border: 5px solid #4a4b4c
+	padding: 20px
+	padding-bottom: 40px
+	padding-top: 30px
+	position: relative
+	transform-style: preserve-3d
+	z-index: 2
+	&:after
+		content: ''
+		display: inline-block
+		border: 4px solid rgba($accent-color, 0.8)
+		position: absolute
+		width: calc(100% + 10px)
+		height: calc(100% + 10px)
+		top: -20px
+		left: -20px
+		z-index: -1
+		opacity: 0
+		+mt(0.4s)
+	&:hover
+		border: 4px solid rgba($accent-color, 0.8)
+		&:after
+			border: 4px solid #4a4b4c
+			opacity: 1
+	.num
+		transform: translateZ(20px)
+		h2
+			font-size: 65px
+			line-height: 65px
+			font-weight: 500
+			margin-bottom: 0
+			margin-top: 0
+			color: $white
+	.name
+		transform: translateZ(20px)
+		p
+			font-size: 18px
+			margin-top: 20px
+			font-weight: 400
+			color: $white
+.al-item-number-icon
+	i
+		color: #fff
+		font-size: 50px
+
+					
+/*Team section*/
+.al-item-team
+	display: contents
+	ul.social-links
+		position: absolute
+		top: 50%
+		+mt(0.5s)
+		transform: translateY(-50%)
+		left: 0
+		right: 0
+		text-align: center
+		margin-left: 0
+		li
+			opacity: 0
+			transform: translateY(10px)
+			transition: all .3s cubic-bezier(0.23, 1, 0.32, 1)
+			transition-delay: 0s
+			margin-left: 20px
+			&:first-child
+				margin-left: 0
+
+	&:hover
+		.mask-info
+			opacity: 0.6
+		ul.social-links
+			li
+				opacity: 1
+				transform: translateY(0)
+				transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1)
+				&:nth-of-type(1)
+					transition-delay: .3s
+				&:nth-of-type(2)
+					transition-delay: .4s
+				&:nth-of-type(3)
+					transition-delay: .5s
+				&:nth-of-type(4)
+					transition-delay: .6s
+				&:nth-of-type(5)
+					transition-delay: .7s
+				&:nth-of-type(6)
+					transition-delay: .8s
+	h2
+		font-size: 16px
+		color: #222
+		font-weight: 500
+		margin-top: 0
+		margin-bottom: 4px
+	span
+		color: #989898
+		font-weight: 400
+		font-size: 15px
+	p
+		margin-bottom: 0
+		margin-top: 10px
+		font-size: 14px
+		color: #606060
+		+mt(0.5s)
+	.al-bottom-team
+		padding: 10px
+		position: relative
+		top: -60px
+	.al-team-content
+		overflow: hidden
+		width: 100%
+		background-color: #fff
+		box-shadow: 0 0 20px rgba(199, 191, 191, 0.26)
+		text-align: center
+		padding: 20px 10px 20px 10px
+		border-radius: 2px
+		height: 100%
+		position: relative
+		&:hover
+			p
+				display: block
+
+
+////////
+
+.img-wrap
+	position: relative
+	img
+		width: 100%
+.mask-info
+	+mt(0.5s)
+	opacity: 0
+	position: absolute
+	top: 0
+	width: 100%
+	height: 100%
+	background-color: $white
+	border: 4px solid $accent-color
+
+///////////////////////// //////////////////////////
+//////////// Start Testimonials Section /////////////
+///////////////////////////////////////////////////
+
+.al-testimonials-item
+	padding: 25px
+	text-align: center
+	background-color: rgba(tint($dark-accent, 2%),0.35)
+	border-radius: 3px
+	transition: all ease-in-out .6s
+	outline: none!important
+	margin-left: 10px
+	margin-right: 10px
+	&:hover
+		transform: translateY(-2%)
+		img
+			border-color: $accent-color
+	img
+		border-radius: 50%
+		width: 150px
+		margin: 0 auto
+		display: inline-block
+		border: 4px solid tint($dark-accent, 2%)
+		transition: all ease .6s
+	.al-text-item
+		padding-top: 10px
+		color: $white
+		font-weight: 300
+		font-size: 16px
+		letter-spacing: .2px
+		padding-bottom: 22px
+		margin-top: 15px
+	.al-testimonial-company
+		display: block
+		font-size: 16px
+	.al-testimonial-name
+		color: $accent-color
+		font-weight: 500
+	.al-testimonial-company
+		color: #a5a5a5
+	
+
+
+
+/*==========   Start Our clients  ==========*/
+.al-partners-carousel
+	overflow: hidden
+	position: relative
+	background-color: $accent-color
+	*
+		outline: none!important
+.al-partner-text
+	font-size: 23px
+	font-weight: 600
+	color: #fff
+	text-transform: uppercase
+	letter-spacing: 1.3px
+
+.al-partner-item
+	text-align: center
+	a
+		text-decoration: none!important
+	img
+		position: relative
+		left: 0
+		right: 0
+		margin: 0 auto
+
+/*========= Start Footer ==========*/
+footer
+	padding-top: 80px
+	padding-bottom: 0
+	background-color: #212124
+	>
+		div
+			padding-bottom: 80px
+			&:last-child
+				padding-bottom: 20px
+	p
+		color: $white
+		font-size: 13px
+		margin-top: 25px
+		line-height: 26px
+	ul.social-links
+		margin-top: 30px
+		margin-left: 5px
+	.down-footer
+		background-color: #272729
+		padding-top: 20px
+		p
+			display: inline-block
+			float: left
+			margin-top: 0
+			a
+				color: $accent-color
+		ul
+			padding-left: 0
+			margin: 0
+			float: right
+			li
+				font-size: 14px
+				font-weight: 400
+				list-style: none
+				display: inline-block
+				margin-right: 15px
+				&:last-child
+					margin-right: 0
+				a
+					color: $white
+					text-decoration: none
+					+mt(0.5s)
+					font-weight: 500
+					text-transform: uppercase
+					letter-spacing: 0.9px
+					&:hover
+						color: $accent-color
+				ul
+					display: none
+	.links
+		p
+			margin-top: 0
+	.logo
+		position: relative
+		top: 0
+		transform: translateY(0)
+		padding: 0
+	ul.social-links
+		li
+			a
+				background-color: $dark-accent
+	.al-widget
+		margin-bottom: 40px
+		ul li ul li a
+			color: #eee
+	select
+		background: transparent url("../img/arrow-down-white.png") 95% 50% no-repeat
+
+	.logo
+		z-index: 2!important
+
+.footer-minimal
+	.down-footer
+		p
+			display: block
+			float: none
+
+.center-all
+	// display: table-cell
+	// vertical-align: middle
+	// text-align: center
+.buttons-section
+	// text-align: center
+	.white-btn
+		background-color: $accent-color
+		border-color: $white
+		color: $white
+		&:hover
+			background-color: shade($accent-color, 20%)
+.right-full
+	background-color: rgba($white, 0.95)
+	position: relative
+	padding-top: 80px
+	padding-bottom: 80px
+	.center-all
+		width: 50%
+		transform: translateX(50%)
+.left-full
+	position: relative
+	.center-all
+		position: absolute
+		top: 50%
+		left: 0
+		right: 0
+		margin: 0 auto
+		text-align: center
+		transform: translateY(-50%)
+
+/*==========   Start Price Table Section  ==========*/
+
+.al-strikethrough
+	text-decoration: line-through
+	color: #c3bcbc!important
+.item-price
+	background-color: $white
+	box-shadow: 4px 0 19px rgba($dark-accent, 0.35)
+	transition: all ease-in-out .4s
+	margin-bottom: 35px
+	border-radius: 3px
+	&:hover
+		transform: translateY(-2%)
+		.head
+			.name-wrap
+				&:after
+					transform: translateY(-3%)
+	.head
+		.name-wrap
+			border-radius: 3px 3px 0 0
+			color: $white
+			background-color: #2d2c2c
+			position: relative
+			text-align: center
+			padding: 27px 0 14px 0
+			h2
+				font-size: 22px
+				font-weight: 400
+				padding-bottom: 3px
+				letter-spacing: .3px
+				line-height: 28px
+				margin: 0
+			&:after
+				content: ""
+				display: block
+				width: 100%
+				height: 30px
+				position: absolute
+				background-image: url('../img/s1_triangle1.svg')
+				background-size: 100% 100%
+				background-repeat: no-repeat
+				bottom: -30px
+		.price-wrap
+			color: $dark-accent
+			text-align: center
+			padding-top: 55px
+			padding-bottom: 30px
+			position: relative
+			overflow: hidden
+			.bg-current
+				font-size: 300px
+				position: absolute
+				opacity: 0.05
+				top: -50px
+				left: 0
+				right: 0
+				transition: all ease 0.4s
+			p
+				font-weight: 500
+				font-size: 65px
+				margin: 0
+				line-height: inherit
+				span
+					&:first-child
+						font-weight: 600
+						font-size: 24px
+						vertical-align: top
+						margin-right: 4px
+						line-height: 69px
+					&:last-child
+						margin-left: 5px
+						font-size: 18px
+						font-weight: 400
+			.per-mn
+				display: block
+				position: relative
+				top: -10px
+				color: #aba8a8
+				font-size: 17px
+				font-weight: 500
+	&:hover
+		.head
+			.price-wrap
+				.bg-current
+					top: -100px
+	.body
+		ul
+			padding: 0
+			margin: 0
+			li
+				text-align: center
+				color: #5e5e5e
+				letter-spacing: 0.2px
+				//font-size: 15px
+				font-weight: 500
+				padding: 18px 10px 18px 10px
+				list-style: none
+				background-color: #fff
+				transition: all ease 0.3s
+				&:nth-child(2n+1)
+					background-color: #f1f1f1
+				&:last-child
+					padding-top: 25px!important
+					padding-bottom: 25px!important
+					transform: scale(1)!important
+					box-shadow: none!important
+				&:not(.al-strikethrough)
+					cursor: pointer
+					&:hover
+						transform: scale(1.1)
+						box-shadow: 0px 0px 32px #ccc
+						border-radius: 2px
+						padding: 15px 5px 15px 5px
+						z-index: 4
+						position: relative
+
+.most-price
+	background-color: $dark-accent
+	position: relative
+	.head
+		padding: 27px 0 27px 0
+		.name-wrap
+			background-color: $dark-accent
+			h2
+				//font-size: 17px
+				font-weight: 400
+				color: $white
+			&:after
+				display: none
+		.price-wrap
+			padding-top: 15px
+			padding-bottom: 15px
+			p
+				color: $white
+			.per-mn
+				color: #bdbdbd
+
+	.body
+		ul
+			li
+				background-color: $dark-accent
+				color: #fafafa
+				&:nth-child(2n+1)
+					background-color: shade( $dark-accent, 10% )
+				a
+					&:active, &:focus, &:visited
+						text-decoration: none
+						color: #fff
+					&:hover
+						background-color: shade( $accent-color, 10% )
+						border-color: shade( $accent-color, 10% )
+						color: #fff
+				&:not(.al-strikethrough)
+					&:hover
+						box-shadow: 0px 0px 32px tint($dark-accent, 10%)
+
+	&:before
+		content: 'Most popular plan'
+		display: block
+		background: $accent-color
+		position: absolute
+		width: 100%
+		left: 0
+		top: -40px
+		text-align: center
+		color: #fff
+		text-transform: uppercase
+		letter-spacing: 2px
+		font-size: 13px
+		padding: 11px 7px
+		font-weight: 500
+
+/*==========   Start .faq-section ==========*/
+.faq-section
+	h2	
+		margin-bottom: 20px
+	.accordion
+		margin-bottom: 50px
+		&:last-child
+			margin-bottom: 0
+
+.al-section-dark
+	.prev-next-block-rotate .wrap-prev, .prev-next-block-rotate .wrap-next
+		&:hover
+			background-color: #424242
+			i
+				color: #fff
+	.dots-control-carousel
+		li
+			button
+				border: 2px solid #848484
+				background-color: #848484
+		.slick-active
+			button
+				background-color: transparent
+
+	.al-content-service-shortcode
+		p
+			color: #1b1b1b
+		.al-all-services-link
+			.al-btn-border-accent
+				color: #353535
+	.al-all-services-link
+		.link-full
+			a
+				color: #353535
+	ul.list li, .link-full a
+		color: #1b1b1b
+	.ui-tabs-nav
+		li .ui-tabs-anchor
+			background-color: #fff
+			box-shadow: 0px 0 9px rgba(66, 78, 92, 0.15)
+			i
+				color: #1b1b1b
+			h4
+				color: #1b1b1b
+			p
+				color: #606060
+		.ui-tabs-active .ui-tabs-anchor
+			background-color: #fff!important
+			box-shadow: 0px 0 19px rgba(66, 78, 92, 0.15)
