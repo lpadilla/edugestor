@@ -14,7 +14,42 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
 .display-page,.al-display-page{
 	display: none;
 }
+.redondeadonorelieve {
+   border-radius: 5px;
+   border: 1px solid #39c;
+ }
 
+form input[type=text], form input[type=email], form input[type=number],  form select, form .selectize-input, form .selectize-input.full{
+ border: 1px solid #6DA550 !important;
+ color:#000000 !important;
+ border-radius: 5px !important;
+	background-color:#fff !important;
+ }
+
+
+form input[type=submit]{
+	background:#6DA550 !important;
+    color:#ffffff !important;
+	border-radius: 5px;
+	margin-left: 45% ;
+}
+
+form input[type=submit]:hover{
+    background:#71A77C !important;
+    color:#ffffff !important;
+	border-radius: 5px;
+	margin-left: 45% ;
+}
+
+
+form textarea
+{   border-radius: 5px !important;
+	border: 1px solid #6DA550 !important;
+    color:#000000 !important;
+	height:100px;	
+	background-color:#fff !important;
+	
+}
 .wpb_headin,.wpb_revslider_heading{
 	display: none;
 }
@@ -25,7 +60,7 @@ section, .section{
   margin: 0;
 }
 header{
-	background-color: rgb(102, 165, 84) !important;
+	background-color: #57A86D !important;
 }
 
 footer, footer .down-footer{

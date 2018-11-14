@@ -70,7 +70,9 @@
               <span class="category"><?php echo $category_arr[0]->name;?></span>
               <span>-</span>
               <span><?php echo get_the_date('d.m.Y'); ?></span>                     
-              <h3 style="font-size: 15px; line-height: 17px;"><?php echo get_the_title(); ?></h3>
+              <a href="<?php echo $post->guid; ?>"" title="">
+                <h3 style="font-size: 15px; line-height: 17px;"><?php echo get_the_title(); ?></h3>
+              </a>
               <p style="font-size: 15px; line-height: 17px;">
                   <?php echo get_the_content() ?>
               </p>
@@ -88,7 +90,7 @@
               $category_arr = get_the_category();
               $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID));?>
               <li style="padding: 10px; height: 120px;">
-                <a href="" title="">
+                <a href="<?php echo $post->guid; ?>"" title="">
                   <div style="border-top: 1px solid #000; padding: 5px 0;">   
                     <div class="col-lg-8 fav-flex">
                       <span class="category" style="font-size: 10px; line-height:  12px;"><?php echo $category_arr[0]->name;?></span>
